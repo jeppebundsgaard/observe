@@ -1,0 +1,1361 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-06-16 15:07+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: backend/systemUser.php:28 backend/createOrg.php:24 backend/orgUser.php:23
+msgid ""
+"Unable to invite the user. Are you sure a user with that e-mail address "
+"exists?"
+msgstr ""
+
+#: backend/systemUser.php:30 backend/createOrg.php:26 backend/orgUser.php:25
+msgid ""
+"Unable to create the user. A user with that e-mail address might exist "
+"already..."
+msgstr ""
+
+#: backend/saveScreenShot.php:9
+msgid "File not uploaded"
+msgstr ""
+
+#: backend/addobservers.php:60
+msgid "Administrator at observe.education"
+msgstr ""
+
+#: backend/addobservers.php:75
+msgid "Invitation to join Observe.education as an observer"
+msgstr ""
+
+#: backend/addobservers.php:82
+#, php-format
+msgid ""
+"Hello!<br><br>You are invited by %1$s to become an observer in the study: "
+"%2$s on <a href=\"https://Observe.education\">Observe.education</a>."
+"<br><br>\n"
+"\t\t\tTo accept the invitation click <a href=\"%3$s\">here</a><br><br>Or you "
+"can copy this URL and paste it into your browser: %3$s.<br><br>\n"
+"\t\t\tWe look forward to see you on Observe.education."
+msgstr ""
+
+#: backend/addobservers.php:95
+#, php-format
+msgid "Error when inviting %1$s. Mailer Error: %2$s"
+msgstr ""
+
+#: backend/addobservers.php:99
+#, php-format
+msgid "%s is not a valid e-mail address, so it has not been invited."
+msgstr ""
+
+#: backend/saveCSS.php:7
+msgid "Something went wrong while saving. Please try again."
+msgstr ""
+
+#: backend/selectobsscheme.php:20 templates/observationschemes.php:29
+msgid "Public&nbsp;Schemes"
+msgstr ""
+
+#: backend/selectobsscheme.php:20 templates/observationschemes.php:29
+msgid "Personal&nbsp;Schemes"
+msgstr ""
+
+#: backend/selectobsscheme.php:33 templates/startobserve.php:28
+#: templates/frontpage.php:31 templates/edit_study.php:54
+msgid "Observation Scheme"
+msgstr ""
+
+#: backend/selectobsscheme.php:40
+msgid "Choose by clicking on a language"
+msgstr ""
+
+#: templates/startobserve.php:20
+msgid "Choose a study to start observe"
+msgstr ""
+
+#: templates/startobserve.php:33
+msgid "Choose this study"
+msgstr ""
+
+#: templates/startobserve.php:41
+msgid "Start using Observe.education"
+msgstr ""
+
+#: templates/startobserve.php:43
+msgid "Provide your name and choose an optional username."
+msgstr ""
+
+#: templates/startobserve.php:44
+msgid "Create a new observation scheme."
+msgstr ""
+
+#: templates/startobserve.php:45
+msgid "Create a study using your own or a public observation scheme."
+msgstr ""
+
+#: templates/startobserve.php:46
+msgid "Observe using a public observation scheme"
+msgstr ""
+
+#: templates/startobserve.php:47
+msgid ""
+"If you are an observer in an existing study, please contact the manager of "
+"the study and ask to be added to the list of observers. Then the study will "
+"appear here."
+msgstr ""
+
+#: templates/startobserve.php:55
+msgid "Choose a subject"
+msgstr ""
+
+#: templates/startobserve.php:59
+msgid "Choose an institution"
+msgstr ""
+
+#: templates/startobserve.php:65
+msgid "Choose groups"
+msgstr ""
+
+#: templates/startobserve.php:69
+msgid "Choose participants"
+msgstr ""
+
+#: templates/startobserve.php:73
+msgid "Start observing"
+msgstr ""
+
+#: templates/edit_observationscheme.php:4
+msgid "Edit observation scheme"
+msgstr ""
+
+#: templates/edit_observationscheme.php:9
+#: templates/translate_observationscheme.php:49
+msgid "Observation Scheme Name"
+msgstr ""
+
+#: templates/edit_observationscheme.php:13
+#: templates/translate_observationscheme.php:52
+msgid "Observation Scheme Description"
+msgstr ""
+
+#: templates/edit_observationscheme.php:17
+#: templates/translate_observationscheme.php:56
+msgid "Reference"
+msgstr ""
+
+#: templates/edit_observationscheme.php:19
+#: templates/translate_observationscheme.php:59
+msgid "Recommended quote when using public observation schemes."
+msgstr ""
+
+#: templates/edit_observationscheme.php:24
+msgid "Save Observation Scheme"
+msgstr ""
+
+#: templates/edit_observationscheme.php:31
+msgid "Design Observation Scheme"
+msgstr ""
+
+#: templates/edit_observationscheme.php:39
+msgid "Quick-fill"
+msgstr ""
+
+#: templates/edit_observationscheme.php:40
+msgid ""
+"Use TAB to go to the next input. Hit Enter to stop writing. Hit Shift+Enter "
+"to open a new value after this one. Hit Esc to cancel."
+msgstr ""
+
+#: templates/edit_observationscheme.php:41 templates/features.php:14
+msgid ""
+"Row and column names are optional. Use them to support the observer. Or "
+"leave them blank."
+msgstr ""
+
+#: templates/edit_observationscheme.php:42
+msgid ""
+"Click <i class=\"fas fa-plus-circle\"></i> to add values, categories, "
+"columns and rows."
+msgstr ""
+
+#: templates/edit_observationscheme.php:43 templates/features.php:20
+msgid ""
+"Use the mouse to reorder (drag and drop) values, categories, columns and "
+"rows."
+msgstr ""
+
+#: templates/edit_observationscheme.php:44
+msgid ""
+"Click <i class=\"fas fa-check\"></i> to make it possible to make more than "
+"one choice. "
+msgstr ""
+
+#: templates/edit_observationscheme.php:45
+msgid ""
+"Click <i class=\"fas fa-hand-holding\"></i> to make it mandatory to register "
+"a choice in this category."
+msgstr ""
+
+#: templates/edit_observationscheme.php:46
+msgid ""
+"Click <i class=\"fas fa-palette\"></i> to change the color of the category."
+msgstr ""
+
+#: templates/edit_observationscheme.php:47
+msgid ""
+"Click <i class=\"fas fa-key\"></i> to make the visibility of the category "
+"dependent on the choice of value in another category."
+msgstr ""
+
+#: templates/edit_observationscheme.php:48
+msgid ""
+"Click <i class=\"fas fa-trash\"></i> to delete rows, columns, categories and "
+"values."
+msgstr ""
+
+#: templates/edit_observationscheme.php:57
+msgid "Dependencies"
+msgstr ""
+
+#: templates/edit_observationscheme.php:66
+msgid "Add dependency"
+msgstr ""
+
+#: templates/edit_observationscheme.php:67
+#: templates/edit_observationscheme.php:88 templates/viewobservations.php:95
+#: templates/edit_study.php:185 templates/edit_study.php:211
+msgid "Close"
+msgstr ""
+
+#: templates/edit_observationscheme.php:76
+msgid "Quickly create categories and values"
+msgstr ""
+
+#: templates/edit_observationscheme.php:83
+msgid ""
+"Create new categories and values by writing one category on each line on for "
+"form: categoryname:value1;value2;...;valueN"
+msgstr ""
+
+#: templates/edit_observationscheme.php:84
+msgid ""
+"The new categories will be inserted into the end of the last column of the "
+"observation scheme."
+msgstr ""
+
+#: templates/edit_observationscheme.php:87
+msgid "Create"
+msgstr ""
+
+#: templates/orgmasterdata.php:13 templates/myOrganization.php:15
+msgid "Master Data"
+msgstr ""
+
+#: templates/orgmasterdata.php:16 templates/orgusers.php:23
+#: templates/systemusers.php:24 templates/edit_study.php:41
+#: templates/edit_study.php:151 templates/studies.php:25
+#: templates/observerspage.php:26 templates/organizations.php:20
+#: templates/organizations.php:42 templates/observationschemes.php:34
+#: templates/myUser.php:16
+msgid "Name"
+msgstr ""
+
+#: templates/orgmasterdata.php:20 templates/organizations.php:21
+#: templates/organizations.php:44
+msgid "Slogan"
+msgstr ""
+
+#: templates/orgmasterdata.php:22
+msgid "The slogan is shown at the front page"
+msgstr ""
+
+#: templates/orgmasterdata.php:25
+msgid "URL"
+msgstr ""
+
+#: templates/orgmasterdata.php:32
+msgid "This is the direct link to your organization's front page"
+msgstr ""
+
+#: templates/orgmasterdata.php:35 templates/observe.php:19
+#: templates/myUser.php:47 templates/editCSS.php:14
+msgid "Finish"
+msgstr ""
+
+#: templates/viewobservations.php:27
+msgid "Hide&nbsp;graphics"
+msgstr ""
+
+#: templates/viewobservations.php:27
+msgid "View&nbsp;graphics"
+msgstr ""
+
+#: templates/viewobservations.php:28 templates/viewobservations.php:64
+msgid "<i class=\"fas fa-cog\"></i> Settings"
+msgstr ""
+
+#: templates/viewobservations.php:29
+#, php-format
+msgid "Sessions in %s"
+msgstr ""
+
+#: templates/viewobservations.php:30
+msgid "Click on a session to view the observations."
+msgstr ""
+
+#: templates/viewobservations.php:34
+msgid "Round"
+msgstr ""
+
+#: templates/viewobservations.php:35
+msgid "Date"
+msgstr ""
+
+#: templates/viewobservations.php:36 templates/viewobservations.php:80
+msgid "Start time"
+msgstr ""
+
+#: templates/viewobservations.php:37 templates/viewobservations.php:81
+msgid "End time"
+msgstr ""
+
+#: templates/viewobservations.php:38
+msgid "Institution"
+msgstr ""
+
+#: templates/viewobservations.php:39 templates/edit_study.php:157
+msgid "Groups"
+msgstr ""
+
+#: templates/viewobservations.php:40 templates/edit_study.php:170
+msgid "Participants"
+msgstr ""
+
+#: templates/viewobservations.php:41
+msgid "Subject"
+msgstr ""
+
+#: templates/viewobservations.php:42
+msgid "Observer"
+msgstr ""
+
+#: templates/viewobservations.php:55
+#, php-format
+msgid "Observations by %1$s in %2$s"
+msgstr ""
+
+#: templates/viewobservations.php:65
+#, php-format
+msgid "Date: %s"
+msgstr ""
+
+#: templates/viewobservations.php:66
+#, php-format
+msgid "Groups: %s"
+msgstr ""
+
+#: templates/viewobservations.php:67
+#, php-format
+msgid "Participants: %s"
+msgstr ""
+
+#: templates/viewobservations.php:93
+msgid "Previous"
+msgstr ""
+
+#: templates/viewobservations.php:94
+msgid "Next"
+msgstr ""
+
+#: templates/viewobservations.php:105
+msgid "Settings"
+msgstr ""
+
+#: templates/viewobservations.php:114
+msgid "Order of observation categories in tables"
+msgstr ""
+
+#: templates/viewobservations.php:124
+msgid "Categories used for naming and coloring curley brackets graphics"
+msgstr ""
+
+#: templates/viewobservations.php:125
+msgid ""
+"Hold down Ctrl or Shift keys while clicking to select multiple categories."
+msgstr ""
+
+#: templates/viewobservations.php:142
+msgid "Cancel"
+msgstr ""
+
+#: templates/viewobservations.php:143 templates/edit_study.php:184
+msgid "Save"
+msgstr ""
+
+#: templates/contact.php:5 templates/frontpage.php:4
+msgid "Observe teaching and learning practices"
+msgstr ""
+
+#: templates/contact.php:6 templates/login.php:6
+msgid "Observe is beta software. Use it at your own risk."
+msgstr ""
+
+#: templates/contact.php:7
+msgid ""
+"Please help us improve <span class=\"observefont\">Observe</span> to become "
+"the number system for observation research on the web."
+msgstr ""
+
+#: templates/contact.php:7
+msgid ""
+"Found a bug? Ideas for improvements? Plan to use <span class=\"observefont"
+"\">Observe</span> for a study and have questions?"
+msgstr ""
+
+#: templates/contact.php:7
+msgid "Contact the lead developer"
+msgstr ""
+
+#: templates/contact.php:12
+msgid "Attributions and Licences"
+msgstr ""
+
+#: templates/login.php:12
+msgid "Session timed out. Log in again"
+msgstr ""
+
+#: templates/login.php:13
+msgid "Give us your e-mail and a password"
+msgstr ""
+
+#: templates/login.php:17 templates/newpass.php:15
+#: templates/acceptinvite.php:24
+msgid "Email address"
+msgstr ""
+
+#: templates/login.php:18 templates/login.php:19
+msgid "Email address or Username"
+msgstr ""
+
+#: templates/login.php:20 templates/login.php:21 templates/newpass.php:17
+#: templates/acceptinvite.php:36 templates/acceptinvite.php:37
+#: templates/myUser.php:29
+msgid "Password"
+msgstr ""
+
+#: templates/login.php:23
+msgid "Remember me"
+msgstr ""
+
+#: templates/login.php:25
+msgid "Sign up"
+msgstr ""
+
+#: templates/login.php:26 header.php:73 footer.php:32 footer.php:32
+#: header.php:73
+msgid "Log in"
+msgstr ""
+
+#: templates/login.php:27
+msgid "Forgot your password? Click here to create a new one."
+msgstr ""
+
+#: templates/orgusers.php:19
+msgid "Users in the organization"
+msgstr ""
+
+#: templates/orgusers.php:24 templates/orgusers.php:46
+#: templates/systemusers.php:25 templates/acceptinvite.php:31
+#: templates/acceptinvite.php:32 templates/myUser.php:20
+msgid "Username"
+msgstr ""
+
+#: templates/orgusers.php:25 templates/orgusers.php:48
+#: templates/systemusers.php:26 templates/myUser.php:24
+msgid "E-mail"
+msgstr ""
+
+#: templates/orgusers.php:26 templates/systemusers.php:28
+msgid "Permissions"
+msgstr ""
+
+#: templates/orgusers.php:27 templates/systemusers.php:29
+msgid "Last Change"
+msgstr ""
+
+#: templates/orgusers.php:28 templates/orgusers.php:34
+#: templates/systemusers.php:30 templates/systemusers.php:36
+#: templates/organizations.php:24 templates/organizations.php:30
+msgid "Remove"
+msgstr ""
+
+#: templates/orgusers.php:41 templates/orgusers.php:53
+msgid "Invite user"
+msgstr ""
+
+#: templates/orgusers.php:50
+msgid ""
+"Invite existing users by username or e-mail. The user will have instant "
+"access to your organization."
+msgstr ""
+
+#: templates/orgusers.php:51
+msgid "Only needed if you create a new user"
+msgstr ""
+
+#: templates/orgusers.php:52
+msgid "You only need to provide a password if you create a new user."
+msgstr ""
+
+#: templates/orgusers.php:53 templates/acceptinvite.php:40
+msgid "Create user"
+msgstr ""
+
+#: templates/systemusers.php:19
+msgid "Observe Users"
+msgstr ""
+
+#: templates/systemusers.php:23
+msgid "User-id"
+msgstr ""
+
+#: templates/systemusers.php:27
+msgid "Organization"
+msgstr ""
+
+#: templates/systemusers.php:36
+msgid "New password"
+msgstr ""
+
+#: templates/page.php:2
+msgid "This is a page"
+msgstr ""
+
+#: templates/page.php:3
+msgid "Use it as a template."
+msgstr ""
+
+#: templates/features.php:4
+msgid "Observe.education Features"
+msgstr ""
+
+#: templates/features.php:5
+msgid "This page shows a subset of Observe.education features."
+msgstr ""
+
+#: templates/features.php:10
+msgid "Edit observation schemes"
+msgstr ""
+
+#: templates/features.php:11
+msgid ""
+"Use mouse and keyboard to create an observation scheme that fits your needs."
+msgstr ""
+
+#: templates/features.php:17
+msgid "Add values, categories, columns and rows."
+msgstr ""
+
+#: templates/features.php:23
+msgid "Decide if it should be possible to make more than one choice. "
+msgstr ""
+
+#: templates/features.php:26
+msgid "Decide if it should be mandatory to register a choice in a category."
+msgstr ""
+
+#: templates/features.php:29
+msgid "Select the color of categories, rows, and columns."
+msgstr ""
+
+#: templates/features.php:32
+msgid ""
+"Make the visibility of the category dependent on the choice of value in "
+"another category."
+msgstr ""
+
+#: templates/features.php:35
+msgid "Delete rows, columns, categories and values."
+msgstr ""
+
+#: templates/features.php:43 templates/features.php:71
+#: templates/features.php:99 templates/features.php:124
+#: templates/features.php:149
+msgid "Sorry, your browser doesn't support embedded video."
+msgstr ""
+
+#: templates/features.php:49
+msgid "Edit Studies"
+msgstr ""
+
+#: templates/features.php:50
+msgid ""
+"A study gives you the opportunity to invite observers, create institutions, "
+"groups, participants and subjects, and to collect data for analysis."
+msgstr ""
+
+#: templates/features.php:53
+msgid "Choose which observation scheme and language to use in the study."
+msgstr ""
+
+#: templates/features.php:56
+msgid ""
+"Invite observers by e-mail or username. Observe.education will send an "
+"invite to new e-mail adresses."
+msgstr ""
+
+#: templates/features.php:59
+msgid ""
+"Create subjects (school subjects or whatever your study considers a subject)."
+msgstr ""
+
+#: templates/features.php:62
+msgid ""
+"Create institutions, and for each institution create groups (e.g. classes, "
+"teacher teams etc.) and participants."
+msgstr ""
+
+#: templates/features.php:67 templates/features.php:95
+#: templates/features.php:120 templates/features.php:145
+msgid "Video on its way"
+msgstr ""
+
+#: templates/features.php:77 templates/observe.php:4 templates/adminmenu.php:7
+msgid "Observe"
+msgstr ""
+
+#: templates/features.php:78
+msgid "Train your observers, and send them in the field to observe."
+msgstr ""
+
+#: templates/features.php:81
+msgid "Let the observers try out the observation scheme in a training session."
+msgstr ""
+
+#: templates/features.php:84
+msgid ""
+"In the field, the observer selects the subject, institution, group and "
+"participants of the session."
+msgstr ""
+
+#: templates/features.php:87
+msgid ""
+"Each time a new activity starts in the session, a new sequence is created by "
+"clicking on the button New sequence."
+msgstr ""
+
+#: templates/features.php:90
+msgid ""
+"When the session is over, the observer clicks on the button Finish "
+"observation."
+msgstr ""
+
+#: templates/features.php:105
+msgid "View and export data from studies"
+msgstr ""
+
+#: templates/features.php:106
+msgid ""
+"When data has been collected, Observe.education gives you the opportunity to "
+"view the data in tables and as graphics. And to export it for further "
+"analysis"
+msgstr ""
+
+#: templates/features.php:109
+msgid "View the observations in detail."
+msgstr ""
+
+#: templates/features.php:112
+msgid "View a graphical representation of the data."
+msgstr ""
+
+#: templates/features.php:115
+msgid "Export the data as a comma separated file (csv)."
+msgstr ""
+
+#: templates/features.php:130
+msgid "Translate observation schemes"
+msgstr ""
+
+#: templates/features.php:131
+msgid ""
+"If you are conducting an international study or you want to use a public "
+"foreign language observation scheme, you can easily translate the "
+"observation scheme."
+msgstr ""
+
+#: templates/features.php:134
+msgid "Translate description, name and reference."
+msgstr ""
+
+#: templates/features.php:137
+msgid ""
+"Go through all strings and translate them. The structure and settings of the "
+"original scheme will be retained."
+msgstr ""
+
+#: templates/features.php:140
+msgid "Now, use the translated observation scheme in your own study."
+msgstr ""
+
+#: templates/cookies.php:5
+msgid "We don't track you!"
+msgstr ""
+
+#: templates/cookies.php:6
+msgid "We use cookies to remember your choices."
+msgstr ""
+
+#: templates/cookies.php:7
+msgid ""
+"Cookies are small files which the browser saves on your device to make it "
+"possible to remember the settings from one page view to the next."
+msgstr ""
+
+#: templates/cookies.php:7
+msgid ""
+"We only use cookies to remember the choices you made. We don't share "
+"anything with anyone else."
+msgstr ""
+
+#: templates/cookies.php:7
+msgid ""
+"If you have questions about this or anything else, please write an email to"
+msgstr ""
+
+#: templates/frontpage.php:5
+msgid ""
+"Observe allows researchers and practitioners to systematically observe "
+"teaching and learning practices."
+msgstr ""
+
+#: templates/frontpage.php:7
+msgid ""
+"<a href=\"?backend=1\" class=\"smallmenulink\">Sign up</a> and start your "
+"own observe.education study using one of the predefined observation schemes "
+"- or develop one of your own."
+msgstr ""
+
+#: templates/frontpage.php:8
+msgid "Or start by trying out one of the observation schemes below."
+msgstr ""
+
+#: templates/frontpage.php:38
+msgid "Try it!"
+msgstr ""
+
+#: templates/observe.php:14
+msgid "New Sequence"
+msgstr ""
+
+#: templates/observe.php:16
+msgid "Save and finish"
+msgstr ""
+
+#: templates/observe.php:18
+msgid "Download and finish"
+msgstr ""
+
+#: templates/observe.php:24
+msgid "Screenshot"
+msgstr ""
+
+#: templates/myOrganization.php:18
+msgid "Stylesheet"
+msgstr ""
+
+#: templates/myOrganization.php:21
+msgid "Front Page"
+msgstr ""
+
+#: templates/myOrganization.php:24
+msgid "Create/Edit Pages"
+msgstr ""
+
+#: templates/myOrganization.php:27 templates/mySystem.php:19
+#: templates/organizations.php:23 templates/organizations.php:30
+msgid "Users"
+msgstr ""
+
+#: templates/translate_observationscheme.php:18
+#: templates/translate_observationscheme.php:101
+msgid "Save Translation"
+msgstr ""
+
+#: templates/translate_observationscheme.php:24
+msgid "Translate observation scheme"
+msgstr ""
+
+#: templates/translate_observationscheme.php:27
+msgid "Target Language"
+msgstr ""
+
+#: templates/translate_observationscheme.php:65
+msgid "Observation scheme"
+msgstr ""
+
+#: templates/translate_observationscheme.php:72
+msgid "Row"
+msgstr ""
+
+#: templates/translate_observationscheme.php:76
+msgid "Column"
+msgstr ""
+
+#: templates/translate_observationscheme.php:80
+msgid "Category"
+msgstr ""
+
+#: templates/translate_observationscheme.php:84
+msgid "Value"
+msgstr ""
+
+#: templates/newpass.php:5
+msgid "The link has expired. We can send you a new one."
+msgstr ""
+
+#: templates/newpass.php:11
+msgid "Create a new password!"
+msgstr ""
+
+#: templates/newpass.php:16
+msgid "New Password"
+msgstr ""
+
+#: templates/newpass.php:20
+msgid "Update"
+msgstr ""
+
+#: templates/edit_study.php:35
+msgid "Edit study"
+msgstr ""
+
+#: templates/edit_study.php:48 templates/studies.php:26
+#: templates/observerspage.php:27 templates/observationschemes.php:35
+msgid "Description"
+msgstr ""
+
+#: templates/edit_study.php:56
+msgid "Change Observation Scheme"
+msgstr ""
+
+#: templates/edit_study.php:56 templates/edit_study.php:195
+msgid "Select Observation Scheme"
+msgstr ""
+
+#: templates/edit_study.php:61
+msgid "Active round"
+msgstr ""
+
+#: templates/edit_study.php:63
+msgid "New round"
+msgstr ""
+
+#: templates/edit_study.php:68
+msgid "Observers"
+msgstr ""
+
+#: templates/edit_study.php:72
+msgid "No observers appointed yet."
+msgstr ""
+
+#: templates/edit_study.php:75
+msgid "Add Observers"
+msgstr ""
+
+#: templates/edit_study.php:76
+msgid ""
+"Write one username or e-mail address on each line. If there is no user with "
+"that e-mail address, an invitation to join Observe.education will be sent."
+msgstr ""
+
+#: templates/edit_study.php:78
+msgid "Add observers"
+msgstr ""
+
+#: templates/edit_study.php:85
+msgid "Subjects"
+msgstr ""
+
+#: templates/edit_study.php:94
+msgid "No subjects defined yet."
+msgstr ""
+
+#: templates/edit_study.php:95
+msgid "Edit subjects by clicking on them."
+msgstr ""
+
+#: templates/edit_study.php:98
+msgid "Add Subjects"
+msgstr ""
+
+#: templates/edit_study.php:99
+msgid "Write one subject on each line."
+msgstr ""
+
+#: templates/edit_study.php:101
+msgid "Add subjects"
+msgstr ""
+
+#: templates/edit_study.php:107
+msgid "Institutions"
+msgstr ""
+
+#: templates/edit_study.php:117
+msgid "No institutions created yet."
+msgstr ""
+
+#: templates/edit_study.php:118
+msgid "Click on the institutions to edit and add groups and participants."
+msgstr ""
+
+#: templates/edit_study.php:121
+msgid "Add Institutions"
+msgstr ""
+
+#: templates/edit_study.php:122
+msgid ""
+"Write one institution on each line. Each institution will be given a unique "
+"ID. You can provide one yourself before each institution name and separate "
+"with a semicolon (;)."
+msgstr ""
+
+#: templates/edit_study.php:124
+msgid "Add institutions"
+msgstr ""
+
+#: templates/edit_study.php:129
+msgid "Done"
+msgstr ""
+
+#: templates/edit_study.php:137
+msgid "Edit institution, groups and participants"
+msgstr ""
+
+#: templates/edit_study.php:146
+msgid "Id"
+msgstr ""
+
+#: templates/edit_study.php:159
+msgid "No groups created yet."
+msgstr ""
+
+#: templates/edit_study.php:159 templates/edit_study.php:172
+msgid "Edit ID and name by clicking on them."
+msgstr ""
+
+#: templates/edit_study.php:162
+msgid "Add Groups"
+msgstr ""
+
+#: templates/edit_study.php:163
+msgid ""
+"Write one group on each line. Each group will be given a unique ID. You can "
+"provide one yourself before each group name and separate with a semicolon "
+"(;)."
+msgstr ""
+
+#: templates/edit_study.php:165
+msgid "Add groups"
+msgstr ""
+
+#: templates/edit_study.php:172
+msgid "No participants created yet."
+msgstr ""
+
+#: templates/edit_study.php:175
+msgid "Add Participants"
+msgstr ""
+
+#: templates/edit_study.php:176
+msgid ""
+"Write one participant on each line. Each participant will be given a unique "
+"ID. You can provide one yourself before each participant name and separate "
+"with a semicolon (;)."
+msgstr ""
+
+#: templates/edit_study.php:178
+msgid "Add participants"
+msgstr ""
+
+#: templates/mySystem.php:16 templates/organizations.php:16
+msgid "Organizations"
+msgstr ""
+
+#: templates/mySystem.php:28 templates/adminmenu.php:17
+msgid "My Observe"
+msgstr ""
+
+#: templates/studies.php:10
+msgid "Under construction"
+msgstr ""
+
+#: templates/studies.php:10
+msgid "Active"
+msgstr ""
+
+#: templates/studies.php:10
+msgid "Inactive"
+msgstr ""
+
+#: templates/studies.php:10
+msgid "Finished"
+msgstr ""
+
+#: templates/studies.php:15
+msgid "New Study"
+msgstr ""
+
+#: templates/studies.php:21 templates/adminmenu.php:9
+msgid "Studies"
+msgstr ""
+
+#: templates/studies.php:27
+msgid "Status"
+msgstr ""
+
+#: templates/studies.php:28 templates/observerspage.php:30
+#: templates/observationschemes.php:42
+msgid "Edit"
+msgstr ""
+
+#: templates/studies.php:29
+msgid "# Observations"
+msgstr ""
+
+#: templates/studies.php:30
+msgid "View"
+msgstr ""
+
+#: templates/studies.php:31
+msgid "Export"
+msgstr ""
+
+#: templates/studies.php:32 templates/observerspage.php:31
+#: templates/observationschemes.php:43
+msgid "Delete"
+msgstr ""
+
+#: templates/observerspage.php:16 templates/observationschemes.php:29
+msgid "New Observation Scheme"
+msgstr ""
+
+#: templates/observerspage.php:22 templates/adminmenu.php:8
+#: templates/observationschemes.php:28
+msgid "Observation Schemes"
+msgstr ""
+
+#: templates/observerspage.php:28 templates/observationschemes.php:36
+msgid "Used in"
+msgstr ""
+
+#: templates/observerspage.php:29 templates/observationschemes.php:41
+msgid "Public"
+msgstr ""
+
+#: templates/organizations.php:22
+msgid "Url"
+msgstr ""
+
+#: templates/organizations.php:37 templates/organizations.php:49
+msgid "Create Organization"
+msgstr ""
+
+#: templates/organizations.php:46
+msgid "URL (shortname)"
+msgstr ""
+
+#: templates/adminmenu.php:12
+msgid "My Organization"
+msgstr ""
+
+#: templates/adminmenu.php:22
+msgid "See how things are done ..."
+msgstr ""
+
+#: templates/adminmenu.php:23
+msgid "Download the manual ..."
+msgstr ""
+
+#: templates/acceptinvite.php:8
+msgid "Error when fetching invitation"
+msgstr ""
+
+#: templates/acceptinvite.php:9
+msgid ""
+"We cannot find the invitation in our system. The reson is probably one of "
+"the following."
+msgstr ""
+
+#: templates/acceptinvite.php:11
+msgid ""
+"Maybe the registration has been renewed. Then you will have received a new "
+"invitaion e-mail. Click on the link in that e-mail."
+msgstr ""
+
+#: templates/acceptinvite.php:12
+msgid ""
+"Or you have missed some of the registration code, when you copied the URL in "
+"the e-mail. Make sure to copy all of it."
+msgstr ""
+
+#: templates/acceptinvite.php:13
+msgid ""
+"Or the invitaion has been withdrawn. Please ask the study manager to invite "
+"you again."
+msgstr ""
+
+#: templates/acceptinvite.php:19
+msgid "Welcome to observe.education!"
+msgstr ""
+
+#: templates/acceptinvite.php:20
+msgid "Create a user"
+msgstr ""
+
+#: templates/acceptinvite.php:27 templates/acceptinvite.php:28
+msgid "Your Name"
+msgstr ""
+
+#: templates/acceptinvite.php:33
+msgid "Your username can be your e-mail address or a name of your own choice."
+msgstr ""
+
+#: templates/observationschemes.php:37
+msgid "Language"
+msgstr ""
+
+#: templates/observationschemes.php:38
+msgid "Scheme"
+msgstr ""
+
+#: templates/observationschemes.php:39
+msgid "Try it"
+msgstr ""
+
+#: templates/observationschemes.php:45
+msgid "Clone"
+msgstr ""
+
+#: templates/observationschemes.php:64
+msgid "Create new translation"
+msgstr ""
+
+#: templates/orgsettings.php:13
+msgid "Standard Settings"
+msgstr ""
+
+#: templates/myUser.php:14
+msgid "User Data"
+msgstr ""
+
+#: templates/myUser.php:26
+msgid ""
+"You are welcome to change your e-mail. Please remember to use the new "
+"address for login in the future."
+msgstr ""
+
+#: templates/myUser.php:30
+msgid "Unchanged"
+msgstr ""
+
+#: templates/myUser.php:34
+msgid "Organization:"
+msgstr ""
+
+#: templates/myUser.php:37
+msgid "Stay"
+msgstr ""
+
+#: templates/myUser.php:41
+msgid "Remove me!"
+msgstr ""
+
+#: templates/myUser.php:43
+msgid ""
+"If you remove yourself from the organization, you need someone to re-invite "
+"you, before you can come back."
+msgstr ""
+
+#: templates/editCSS.php:15
+msgid "Use changes"
+msgstr ""
+
+#: templates/editCSS.php:34
+msgid "Navigation Bar"
+msgstr ""
+
+#: templates/editCSS.php:37
+msgid "Toggles at small screen sizes"
+msgstr ""
+
+#: templates/editCSS.php:40
+msgid "Click!"
+msgstr ""
+
+#: templates/editCSS.php:44
+msgid "Tournament Name"
+msgstr ""
+
+#: templates/editCSS.php:51
+msgid "Header"
+msgstr ""
+
+#: templates/editCSS.php:55
+msgid "Normal text"
+msgstr ""
+
+#: templates/editCSS.php:61 templates/editCSS.php:64 templates/editCSS.php:74
+msgid "Table"
+msgstr ""
+
+#: templates/editCSS.php:61
+msgid "With"
+msgstr ""
+
+#: templates/editCSS.php:61
+msgid "Hover"
+msgstr ""
+
+#: templates/editCSS.php:61 templates/editCSS.php:64 templates/editCSS.php:74
+msgid "Cell"
+msgstr ""
+
+#: templates/editCSS.php:64
+msgid "Striped"
+msgstr ""
+
+#: templates/editCSS.php:64
+msgid "Small"
+msgstr ""
+
+#: templates/editCSS.php:69
+msgid "League Table Header"
+msgstr ""
+
+#: templates/editCSS.php:73
+msgid "League Table"
+msgstr ""
+
+#: templates/editCSS.php:74
+msgid "In"
+msgstr ""
+
+#: templates/editCSS.php:74
+msgid "Card"
+msgstr ""
+
+#: templates/editCSS.php:86
+msgid "First Round. Group A"
+msgstr ""
+
+#: templates/editCSS.php:90 templates/editCSS.php:91 templates/editCSS.php:92
+msgid "No."
+msgstr ""
+
+#: templates/editCSS.php:90 templates/editCSS.php:91 templates/editCSS.php:92
+msgid "First Round"
+msgstr ""
+
+#: templates/editCSS.php:90 templates/editCSS.php:91 templates/editCSS.php:92
+msgid "Team"
+msgstr ""
+
+#: header.php:48 header.php:48
+msgid "Frontpage"
+msgstr ""
+
+#: header.php:51 header.php:51
+msgid "Features"
+msgstr ""
+
+#: header.php:77 header.php:77
+msgid "My User"
+msgstr ""
+
+#: index.php:34 index.php:34
+msgid "Error: No organization with that name"
+msgstr ""
+
+#: frontend/newinviteduser.php:11
+msgid ""
+"You have already registered a user with this e-mail. Please just log in."
+msgstr ""
+
+#: frontend/newinviteduser.php:11
+msgid "The username is not available. Please select a new one."
+msgstr ""
+
+#: frontend/login.php:6
+msgid "Not a valid e-mail address"
+msgstr ""
+
+#: frontend/login.php:14
+msgid "E-mail already registered"
+msgstr ""
+
+#: frontend/login.php:21
+msgid "Welcome to Observe!"
+msgstr ""
+
+#: frontend/login.php:49
+msgid "Welcome back to Observe!"
+msgstr ""
+
+#: frontend/login.php:51
+msgid "E-mail or password was wrong"
+msgstr ""
+
+#: frontend/forgotpassword.php:11
+msgid "We couldn't find a  user with that e-mail address."
+msgstr ""
+
+#: frontend/forgotpassword.php:38
+msgid "Observe Support"
+msgstr ""
+
+#: frontend/forgotpassword.php:43
+msgid "Create a new password"
+msgstr ""
+
+#: frontend/forgotpassword.php:44
+#, php-format
+msgid ""
+"Hello %1$s,<br>Someone asked for a new password for Observe. If it was not "
+"you, please disregard this e-mail.<p>Please click on this link to create a "
+"new password:</p><p><a href=\"%2$s\">%2$s</a></p>"
+msgstr ""
+
+#: footer.php:19 footer.php:30 footer.php:19 footer.php:30
+msgid "Cookies"
+msgstr ""
+
+#: footer.php:20 footer.php:31 footer.php:20 footer.php:31
+msgid "Contact"
+msgstr ""
+
+#: footer.php:25 footer.php:25
+msgid "Log out"
+msgstr ""
+
+#: footer.php:40 footer.php:40
+msgid "Tournament Managed by basesystem"
+msgstr ""
+
+#: footer.php:70 footer.php:70
+msgid "Login"
+msgstr ""

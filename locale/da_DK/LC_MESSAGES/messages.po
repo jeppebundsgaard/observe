@@ -1,0 +1,2738 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-06-16 15:07+0200\n"
+"PO-Revision-Date: 2021-01-05 23:13+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: da_DK\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4.1\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: backend/systemUser.php:28 backend/createOrg.php:24 backend/orgUser.php:23
+msgid ""
+"Unable to invite the user. Are you sure a user with that e-mail address "
+"exists?"
+msgstr ""
+"Det lykkedes ikke at invitere brugeren. Er du sikker på at der findes en "
+"bruger med den e-mailadresse?"
+
+#: backend/systemUser.php:30 backend/createOrg.php:26 backend/orgUser.php:25
+msgid ""
+"Unable to create the user. A user with that e-mail address might exist "
+"already..."
+msgstr ""
+"Det lykkedes ikke at invitere brugeren. Der findes måske allerede en bruger "
+"med den e-mailadresse ..."
+
+#: backend/saveScreenShot.php:9
+msgid "File not uploaded"
+msgstr "Filen kunne ikke uploades"
+
+#: backend/addobservers.php:60
+msgid "Administrator at observe.education"
+msgstr "Observe.education-administrator"
+
+#: backend/addobservers.php:75
+msgid "Invitation to join Observe.education as an observer"
+msgstr "Invitation til at blive observatør på Observe"
+
+#: backend/addobservers.php:82
+#, php-format
+msgid ""
+"Hello!<br><br>You are invited by %1$s to become an observer in the study: "
+"%2$s on <a href=\"https://Observe.education\">Observe.education</a>."
+"<br><br>\n"
+"\t\t\tTo accept the invitation click <a href=\"%3$s\">here</a><br><br>Or you "
+"can copy this URL and paste it into your browser: %3$s.<br><br>\n"
+"\t\t\tWe look forward to see you on Observe.education."
+msgstr ""
+"Du er blevet inviteret af %1$s til at blive observatør i studiet %2$s på <a "
+"href=\"https://Observe.education\">Observe.education</a>.<br>.<br><br>\n"
+"\t\t\tFor at acceptere invitationen skal du klikke <a href=\"%3$s\">her</a>\n"
+"<br><br>Eller du kan kopiere denne URL og sætte den ind i din browser: %3$s."
+"<br><br>\n"
+"\t\t\tVi ser frem til at se dig på Observe.education."
+
+#: backend/addobservers.php:95
+#, php-format
+msgid "Error when inviting %1$s. Mailer Error: %2$s"
+msgstr "Fejl under invitationen af %1$s. Fejlmeddelelse: %2$s"
+
+#: backend/addobservers.php:99
+#, php-format
+msgid "%s is not a valid e-mail address, so it has not been invited."
+msgstr "%s er ikke en gyldig e-mail-adresse, så den er ikke blevet inviteret."
+
+#: backend/saveCSS.php:7
+msgid "Something went wrong while saving. Please try again."
+msgstr ""
+"Beklager, der gik noget galt under forsøget på at gemme. Prøv venligst igen."
+
+#: backend/selectobsscheme.php:20 templates/observationschemes.php:29
+msgid "Public&nbsp;Schemes"
+msgstr "Offentlige&nbsp;skemaer"
+
+#: backend/selectobsscheme.php:20 templates/observationschemes.php:29
+msgid "Personal&nbsp;Schemes"
+msgstr "Personlige&nbsp;skemaer"
+
+#: backend/selectobsscheme.php:33 templates/startobserve.php:28
+#: templates/frontpage.php:31 templates/edit_study.php:54
+msgid "Observation Scheme"
+msgstr "Observationsskema"
+
+#: backend/selectobsscheme.php:40
+msgid "Choose by clicking on a language"
+msgstr "Vælg ved at klikke på et sprog"
+
+#: templates/startobserve.php:20
+msgid "Choose a study to start observe"
+msgstr "Vælg et studie for at påbegynde en observation"
+
+#: templates/startobserve.php:33
+msgid "Choose this study"
+msgstr "Brug dette studie"
+
+#: templates/startobserve.php:41
+msgid "Start using Observe.education"
+msgstr "Begynd at bruge Observe.education"
+
+#: templates/startobserve.php:43
+msgid "Provide your name and choose an optional username."
+msgstr "Angiv dit navn og vælg et brugernavn."
+
+#: templates/startobserve.php:44
+msgid "Create a new observation scheme."
+msgstr "Opret et nyt observationsskema."
+
+#: templates/startobserve.php:45
+msgid "Create a study using your own or a public observation scheme."
+msgstr ""
+"Opret et studie med dit eget eller et af de offentlige observationsskemaer."
+
+#: templates/startobserve.php:46
+msgid "Observe using a public observation scheme"
+msgstr "Observer med brug af et af de offentlige observationsskemaer"
+
+#: templates/startobserve.php:47
+msgid ""
+"If you are an observer in an existing study, please contact the manager of "
+"the study and ask to be added to the list of observers. Then the study will "
+"appear here."
+msgstr ""
+"Hvis du er observatør i et eksisterende studie, så kontakt venligst studiets "
+"leder og bed om at blive oprettet på observatørlisten. Derefter vil studiet "
+"optræde på denne side."
+
+#: templates/startobserve.php:55
+msgid "Choose a subject"
+msgstr "Vælg et studie"
+
+#: templates/startobserve.php:59
+msgid "Choose an institution"
+msgstr "Vælg en institution"
+
+#: templates/startobserve.php:65
+msgid "Choose groups"
+msgstr "Vælg grupper"
+
+#: templates/startobserve.php:69
+msgid "Choose participants"
+msgstr "Vælg deltagere"
+
+#: templates/startobserve.php:73
+msgid "Start observing"
+msgstr "Start observation"
+
+#: templates/edit_observationscheme.php:4
+msgid "Edit observation scheme"
+msgstr "Rediger observationsskema"
+
+#: templates/edit_observationscheme.php:9
+#: templates/translate_observationscheme.php:49
+msgid "Observation Scheme Name"
+msgstr "Observationsskemanavn"
+
+#: templates/edit_observationscheme.php:13
+#: templates/translate_observationscheme.php:52
+msgid "Observation Scheme Description"
+msgstr "Observationsskemabeskrivelse"
+
+#: templates/edit_observationscheme.php:17
+#: templates/translate_observationscheme.php:56
+msgid "Reference"
+msgstr "Reference"
+
+#: templates/edit_observationscheme.php:19
+#: templates/translate_observationscheme.php:59
+msgid "Recommended quote when using public observation schemes."
+msgstr "Anbefalet henvisning når offentlige observationsskemaer anvendes."
+
+#: templates/edit_observationscheme.php:24
+msgid "Save Observation Scheme"
+msgstr "Gem observationsskema"
+
+#: templates/edit_observationscheme.php:31
+msgid "Design Observation Scheme"
+msgstr "Udarbejd observationsskema"
+
+#: templates/edit_observationscheme.php:39
+msgid "Quick-fill"
+msgstr "Hurtig udfyldning"
+
+#: templates/edit_observationscheme.php:40
+msgid ""
+"Use TAB to go to the next input. Hit Enter to stop writing. Hit Shift+Enter "
+"to open a new value after this one. Hit Esc to cancel."
+msgstr ""
+"Brug TAB for at gå til næste input. Tryk Enter (Retur) for at stoppe med at "
+"skrive. Tryk Shift+Enter for at åbne en ny værdi efter denne. Tryk Esc for "
+"at fortryde."
+
+#: templates/edit_observationscheme.php:41 templates/features.php:14
+msgid ""
+"Row and column names are optional. Use them to support the observer. Or "
+"leave them blank."
+msgstr ""
+"Række- og kolonnenavne er valgfrie. Brug dem til at understøtte "
+"observatøren. Eller lad dem stå tomme."
+
+#: templates/edit_observationscheme.php:42
+msgid ""
+"Click <i class=\"fas fa-plus-circle\"></i> to add values, categories, "
+"columns and rows."
+msgstr ""
+"Klik <i class=\"fas fa-plus-circle\"></i> for at tilføje værdier, "
+"kategorier, kolonner og rækker."
+
+#: templates/edit_observationscheme.php:43 templates/features.php:20
+msgid ""
+"Use the mouse to reorder (drag and drop) values, categories, columns and "
+"rows."
+msgstr ""
+"Brug musen til at flytte rundt (træk og slip) værdier, kategorier, kolonner "
+"og rækker."
+
+#: templates/edit_observationscheme.php:44
+msgid ""
+"Click <i class=\"fas fa-check\"></i> to make it possible to make more than "
+"one choice. "
+msgstr ""
+"Klik <i class=\"fas fa-check\"></i> for at gøre det muligt at vælge mere end "
+"en værdi. "
+
+#: templates/edit_observationscheme.php:45
+msgid ""
+"Click <i class=\"fas fa-hand-holding\"></i> to make it mandatory to register "
+"a choice in this category."
+msgstr ""
+"Klik <i class=\"fas fa-hand-holding\"></i> for at gøre det obligatorisk at "
+"registrere et valg i denne kategori."
+
+#: templates/edit_observationscheme.php:46
+msgid ""
+"Click <i class=\"fas fa-palette\"></i> to change the color of the category."
+msgstr ""
+"Klik <i class=\"fas fa-fa-palette\"></i> for at ændre farven på denne "
+"kategori."
+
+#: templates/edit_observationscheme.php:47
+msgid ""
+"Click <i class=\"fas fa-key\"></i> to make the visibility of the category "
+"dependent on the choice of value in another category."
+msgstr ""
+"Klik <i class=\"fas fa-key\"></i> for at gøre synligheden af kategorien "
+"afhængig af valget af en værdi i en anden kategori."
+
+#: templates/edit_observationscheme.php:48
+msgid ""
+"Click <i class=\"fas fa-trash\"></i> to delete rows, columns, categories and "
+"values."
+msgstr ""
+"Klik på <i class=\"fas fa-trash\"></i> for at slette rækker, kolonner, "
+"kategorier og værdier."
+
+#: templates/edit_observationscheme.php:57
+msgid "Dependencies"
+msgstr "Afhængigheder"
+
+#: templates/edit_observationscheme.php:66
+msgid "Add dependency"
+msgstr "Tilføj afhængighed"
+
+#: templates/edit_observationscheme.php:67
+#: templates/edit_observationscheme.php:88 templates/viewobservations.php:95
+#: templates/edit_study.php:185 templates/edit_study.php:211
+msgid "Close"
+msgstr "Luk"
+
+#: templates/edit_observationscheme.php:76
+msgid "Quickly create categories and values"
+msgstr "Opret hurtigt kategorier og værdier"
+
+#: templates/edit_observationscheme.php:83
+msgid ""
+"Create new categories and values by writing one category on each line on for "
+"form: categoryname:value1;value2;...;valueN"
+msgstr ""
+"Opret nye kategorier og værdier ved at skrive en kategori på hver linje på "
+"formen: kategorinavn:værdi1;værdi2;...;værdiN"
+
+#: templates/edit_observationscheme.php:84
+msgid ""
+"The new categories will be inserted into the end of the last column of the "
+"observation scheme."
+msgstr ""
+"De nye kategorier bliver indsat i slutningen af den sidste kolonne i "
+"observationsskemaet."
+
+#: templates/edit_observationscheme.php:87
+msgid "Create"
+msgstr "Opret"
+
+#: templates/orgmasterdata.php:13 templates/myOrganization.php:15
+msgid "Master Data"
+msgstr "Stamdata"
+
+#: templates/orgmasterdata.php:16 templates/orgusers.php:23
+#: templates/systemusers.php:24 templates/edit_study.php:41
+#: templates/edit_study.php:151 templates/studies.php:25
+#: templates/observerspage.php:26 templates/organizations.php:20
+#: templates/organizations.php:42 templates/observationschemes.php:34
+#: templates/myUser.php:16
+msgid "Name"
+msgstr "Navn"
+
+#: templates/orgmasterdata.php:20 templates/organizations.php:21
+#: templates/organizations.php:44
+msgid "Slogan"
+msgstr "Slogan"
+
+#: templates/orgmasterdata.php:22
+msgid "The slogan is shown at the front page"
+msgstr "Sloganet vises på forsiden"
+
+#: templates/orgmasterdata.php:25
+msgid "URL"
+msgstr "URL"
+
+#: templates/orgmasterdata.php:32
+msgid "This is the direct link to your organization's front page"
+msgstr "Dette er det direkte link til din organisations forside"
+
+#: templates/orgmasterdata.php:35 templates/observe.php:19
+#: templates/myUser.php:47 templates/editCSS.php:14
+msgid "Finish"
+msgstr "Afslut"
+
+#: templates/viewobservations.php:27
+msgid "Hide&nbsp;graphics"
+msgstr "Skjul&nbsp;grafik"
+
+#: templates/viewobservations.php:27
+msgid "View&nbsp;graphics"
+msgstr "Vis&nbsp;grafik"
+
+#: templates/viewobservations.php:28 templates/viewobservations.php:64
+msgid "<i class=\"fas fa-cog\"></i> Settings"
+msgstr "<i class=\"fas fa-cog\"></i> Indstillinger"
+
+#: templates/viewobservations.php:29
+#, php-format
+msgid "Sessions in %s"
+msgstr "Sessioner i %s"
+
+#: templates/viewobservations.php:30
+msgid "Click on a session to view the observations."
+msgstr "Klik på en session for at se observationerne."
+
+#: templates/viewobservations.php:34
+msgid "Round"
+msgstr "Runde"
+
+#: templates/viewobservations.php:35
+msgid "Date"
+msgstr "Dato"
+
+#: templates/viewobservations.php:36 templates/viewobservations.php:80
+msgid "Start time"
+msgstr "Starttid"
+
+#: templates/viewobservations.php:37 templates/viewobservations.php:81
+msgid "End time"
+msgstr "Sluttid"
+
+#: templates/viewobservations.php:38
+msgid "Institution"
+msgstr "Institution"
+
+#: templates/viewobservations.php:39 templates/edit_study.php:157
+msgid "Groups"
+msgstr "Grupper"
+
+#: templates/viewobservations.php:40 templates/edit_study.php:170
+msgid "Participants"
+msgstr "Deltagere"
+
+#: templates/viewobservations.php:41
+msgid "Subject"
+msgstr "Fag/temaer"
+
+#: templates/viewobservations.php:42
+msgid "Observer"
+msgstr "Observatør"
+
+#: templates/viewobservations.php:55
+#, php-format
+msgid "Observations by %1$s in %2$s"
+msgstr "Observationer af %1$s på %2$s"
+
+#: templates/viewobservations.php:65
+#, php-format
+msgid "Date: %s"
+msgstr "Dato: %s"
+
+#: templates/viewobservations.php:66
+#, php-format
+msgid "Groups: %s"
+msgstr "Grupper: %s"
+
+#: templates/viewobservations.php:67
+#, php-format
+msgid "Participants: %s"
+msgstr "Deltagere: %s"
+
+#: templates/viewobservations.php:93
+msgid "Previous"
+msgstr "Forrige"
+
+#: templates/viewobservations.php:94
+msgid "Next"
+msgstr "Næste"
+
+#: templates/viewobservations.php:105
+msgid "Settings"
+msgstr "Indstillinger"
+
+#: templates/viewobservations.php:114
+msgid "Order of observation categories in tables"
+msgstr "Rækkefølge af observationskategorierne i tabeller"
+
+#: templates/viewobservations.php:124
+msgid "Categories used for naming and coloring curley brackets graphics"
+msgstr ""
+"Kategorier anvendt til navngivning og farvelægning af tuborklammegrafik"
+
+#: templates/viewobservations.php:125
+msgid ""
+"Hold down Ctrl or Shift keys while clicking to select multiple categories."
+msgstr ""
+"Hold Ctrl- eller Shift-knappen nede når du klikker for at vælge flere "
+"kategorier."
+
+#: templates/viewobservations.php:142
+msgid "Cancel"
+msgstr "Fortryd"
+
+#: templates/viewobservations.php:143 templates/edit_study.php:184
+msgid "Save"
+msgstr "Gem"
+
+#: templates/contact.php:5 templates/frontpage.php:4
+msgid "Observe teaching and learning practices"
+msgstr "Observer undervisningspraksisser"
+
+#: templates/contact.php:6 templates/login.php:6
+msgid "Observe is beta software. Use it at your own risk."
+msgstr "Observe er i betaversion. Brug det på eget ansvar."
+
+#: templates/contact.php:7
+msgid ""
+"Please help us improve <span class=\"observefont\">Observe</span> to become "
+"the number system for observation research on the web."
+msgstr ""
+"Hjælp os med at gøre <span class=\"observefont\">Observe</span> til "
+"internettets bedste system til observationsstudier."
+
+#: templates/contact.php:7
+msgid ""
+"Found a bug? Ideas for improvements? Plan to use <span class=\"observefont"
+"\">Observe</span> for a study and have questions?"
+msgstr ""
+"Har du fundet en fejl? Har du forslag til forbedringer? Vil du bruge <span "
+"class=\"observefont\">Observe</span> til dit eget studie og har du spørgsmål?"
+
+#: templates/contact.php:7
+msgid "Contact the lead developer"
+msgstr "Kontakt hovedudvikleren"
+
+#: templates/contact.php:12
+msgid "Attributions and Licences"
+msgstr "Tak og licenser"
+
+#: templates/login.php:12
+msgid "Session timed out. Log in again"
+msgstr "Din session er udløbet. Log ind igen"
+
+#: templates/login.php:13
+msgid "Give us your e-mail and a password"
+msgstr "Giv os din e-mail og et kodeord"
+
+#: templates/login.php:17 templates/newpass.php:15
+#: templates/acceptinvite.php:24
+msgid "Email address"
+msgstr "Emailadresse"
+
+#: templates/login.php:18 templates/login.php:19
+msgid "Email address or Username"
+msgstr "Emailadresse"
+
+#: templates/login.php:20 templates/login.php:21 templates/newpass.php:17
+#: templates/acceptinvite.php:36 templates/acceptinvite.php:37
+#: templates/myUser.php:29
+msgid "Password"
+msgstr "Kodeord"
+
+#: templates/login.php:23
+msgid "Remember me"
+msgstr "Husk mig"
+
+#: templates/login.php:25
+msgid "Sign up"
+msgstr "Opret en bruger"
+
+#: templates/login.php:26 header.php:73 footer.php:32
+msgid "Log in"
+msgstr "Log ind"
+
+#: templates/login.php:27
+msgid "Forgot your password? Click here to create a new one."
+msgstr "Har du glemt dit kodeord? Klik her for at vælge et nyt."
+
+#: templates/orgusers.php:19
+msgid "Users in the organization"
+msgstr "Brugere i organisationen"
+
+#: templates/orgusers.php:24 templates/orgusers.php:46
+#: templates/systemusers.php:25 templates/acceptinvite.php:31
+#: templates/acceptinvite.php:32 templates/myUser.php:20
+msgid "Username"
+msgstr "Brugernavn"
+
+#: templates/orgusers.php:25 templates/orgusers.php:48
+#: templates/systemusers.php:26 templates/myUser.php:24
+msgid "E-mail"
+msgstr "E-mail"
+
+#: templates/orgusers.php:26 templates/systemusers.php:28
+msgid "Permissions"
+msgstr "TIlladelser"
+
+#: templates/orgusers.php:27 templates/systemusers.php:29
+msgid "Last Change"
+msgstr "Senest ændret"
+
+#: templates/orgusers.php:28 templates/orgusers.php:34
+#: templates/systemusers.php:30 templates/systemusers.php:36
+#: templates/organizations.php:24 templates/organizations.php:30
+msgid "Remove"
+msgstr "Fjern"
+
+#: templates/orgusers.php:41 templates/orgusers.php:53
+msgid "Invite user"
+msgstr "Tilknyt bruger"
+
+#: templates/orgusers.php:50
+msgid ""
+"Invite existing users by username or e-mail. The user will have instant "
+"access to your organization."
+msgstr ""
+"Inviter en eksisterende bruger med brugernavn eller e-mailadresse. Brugere "
+"får øjeblikkelig adgang til din organisation."
+
+#: templates/orgusers.php:51
+msgid "Only needed if you create a new user"
+msgstr "Kun nødvendig hvis du opretter en ny bruger"
+
+#: templates/orgusers.php:52
+msgid "You only need to provide a password if you create a new user."
+msgstr "Du behøver kun angive et kodeord, hvis du opretter en ny bruger."
+
+#: templates/orgusers.php:53 templates/acceptinvite.php:40
+msgid "Create user"
+msgstr "Opret bruger"
+
+#: templates/systemusers.php:19
+msgid "Observe Users"
+msgstr "Observe-brugere"
+
+#: templates/systemusers.php:23
+msgid "User-id"
+msgstr "Bruger-id"
+
+#: templates/systemusers.php:27
+msgid "Organization"
+msgstr "Organisation"
+
+#: templates/systemusers.php:36
+msgid "New password"
+msgstr "Nyt kodeord"
+
+#: templates/page.php:2
+msgid "This is a page"
+msgstr "Dette er en side"
+
+#: templates/page.php:3
+msgid "Use it as a template."
+msgstr "Brug den som skabelon."
+
+#: templates/features.php:4
+msgid "Observe.education Features"
+msgstr "Funktioner i Observe.education"
+
+#: templates/features.php:5
+msgid "This page shows a subset of Observe.education features."
+msgstr "Denne side viser en del af funktionerne i Observe.education."
+
+#: templates/features.php:10
+msgid "Edit observation schemes"
+msgstr "Rediger observationsskemaer"
+
+#: templates/features.php:11
+msgid ""
+"Use mouse and keyboard to create an observation scheme that fits your needs."
+msgstr ""
+"Brug musen og tastaturet til at oprette et observationsskema som passer til "
+"dine behov."
+
+#: templates/features.php:17
+msgid "Add values, categories, columns and rows."
+msgstr "Tilføj værdier, kategorier, kolonner og rækker."
+
+#: templates/features.php:23
+msgid "Decide if it should be possible to make more than one choice. "
+msgstr "Afgør om det skal være muligt at vælge mere end en værdi. "
+
+#: templates/features.php:26
+msgid "Decide if it should be mandatory to register a choice in a category."
+msgstr ""
+"Afgør om det skal være obligatorisk at registrere et valg i en kategori."
+
+#: templates/features.php:29
+msgid "Select the color of categories, rows, and columns."
+msgstr "Vælg farver på kategorier, rækker og kolonner."
+
+#: templates/features.php:32
+msgid ""
+"Make the visibility of the category dependent on the choice of value in "
+"another category."
+msgstr ""
+"Gør synligheden af en kategori afhængig af valget af en værdi i en anden "
+"kategori."
+
+#: templates/features.php:35
+msgid "Delete rows, columns, categories and values."
+msgstr "Slet rækker, kolonner, kategorier og værdier."
+
+#: templates/features.php:43 templates/features.php:71
+#: templates/features.php:99 templates/features.php:124
+#: templates/features.php:149
+msgid "Sorry, your browser doesn't support embedded video."
+msgstr "Desværre understøtter din browser ikke indlejret video."
+
+#: templates/features.php:49
+msgid "Edit Studies"
+msgstr "Rediger studier"
+
+#: templates/features.php:50
+msgid ""
+"A study gives you the opportunity to invite observers, create institutions, "
+"groups, participants and subjects, and to collect data for analysis."
+msgstr ""
+"Et studie giver dig muligheden for at invitere observatører, skabe "
+"institutioner, grupper, deltagere og fag, for for at indsamle data til "
+"analyse."
+
+#: templates/features.php:53
+msgid "Choose which observation scheme and language to use in the study."
+msgstr "Vælg hvilket observationsskema og sprog som skal bruges i studiet."
+
+#: templates/features.php:56
+msgid ""
+"Invite observers by e-mail or username. Observe.education will send an "
+"invite to new e-mail adresses."
+msgstr ""
+"Inviter observatører via e-mail eller brugernavn. Observe.education sender "
+"en invitation til nye e-mail-adresser."
+
+#: templates/features.php:59
+msgid ""
+"Create subjects (school subjects or whatever your study considers a subject)."
+msgstr "Opret fag (eller andre tematiske grupper)."
+
+#: templates/features.php:62
+msgid ""
+"Create institutions, and for each institution create groups (e.g. classes, "
+"teacher teams etc.) and participants."
+msgstr ""
+"Opret institutioner, og for hver institution kan du derefter oprette grupper "
+"(fx klasser, lærerteams osv.) og deltagere."
+
+#: templates/features.php:67 templates/features.php:95
+#: templates/features.php:120 templates/features.php:145
+msgid "Video on its way"
+msgstr "Video på vej"
+
+#: templates/features.php:77 templates/observe.php:4 templates/adminmenu.php:7
+msgid "Observe"
+msgstr "Observer"
+
+#: templates/features.php:78
+msgid "Train your observers, and send them in the field to observe."
+msgstr "Træn dine observatører, og send dem ud i feltet for at observere."
+
+#: templates/features.php:81
+msgid "Let the observers try out the observation scheme in a training session."
+msgstr "Lad observatørerne prøve observationsskemaet i en træningssession."
+
+#: templates/features.php:84
+msgid ""
+"In the field, the observer selects the subject, institution, group and "
+"participants of the session."
+msgstr ""
+"I felten vælger observatøren fag, institution, gruppe og deltagere i "
+"sessionen."
+
+#: templates/features.php:87
+msgid ""
+"Each time a new activity starts in the session, a new sequence is created by "
+"clicking on the button New sequence."
+msgstr ""
+"Hver gang en ny aktivitet starter i sessionen, oprettes en ny sekvens ved at "
+"klikke på knappen Ny sekvens."
+
+#: templates/features.php:90
+msgid ""
+"When the session is over, the observer clicks on the button Finish "
+"observation."
+msgstr ""
+"Når sessionen er ovre, klikker observatøren på knappen Afslut observation."
+
+#: templates/features.php:105
+msgid "View and export data from studies"
+msgstr "Se og eksporter data fra studier"
+
+#: templates/features.php:106
+msgid ""
+"When data has been collected, Observe.education gives you the opportunity to "
+"view the data in tables and as graphics. And to export it for further "
+"analysis"
+msgstr ""
+"Når data er blevet indsamlet, giver observe.education dig muligheden for at "
+"se data i tabeller og som grafer. Og for at eksportere til yderligere "
+"analyser"
+
+#: templates/features.php:109
+msgid "View the observations in detail."
+msgstr "Se observationerne i detaljer."
+
+#: templates/features.php:112
+msgid "View a graphical representation of the data."
+msgstr "Se en grafisk repræsentation af data."
+
+#: templates/features.php:115
+msgid "Export the data as a comma separated file (csv)."
+msgstr "Eksporter data som en komma-separeret fil (csv)."
+
+#: templates/features.php:130
+msgid "Translate observation schemes"
+msgstr "Oversæt observationsskemaer"
+
+#: templates/features.php:131
+msgid ""
+"If you are conducting an international study or you want to use a public "
+"foreign language observation scheme, you can easily translate the "
+"observation scheme."
+msgstr ""
+"Hvis du udfører et internationalt studie eller du ønsker at anvende et "
+"offentlige skema som findes på et andet sprog, kan du let oversætte skemaet."
+
+#: templates/features.php:134
+msgid "Translate description, name and reference."
+msgstr "Oversæt beskrivelse, navn og referencer."
+
+#: templates/features.php:137
+msgid ""
+"Go through all strings and translate them. The structure and settings of the "
+"original scheme will be retained."
+msgstr ""
+"Gå gennem alle strenge og oversæt dem. Strukturen om indstillingerne fra det "
+"originale skema bevares."
+
+#: templates/features.php:140
+msgid "Now, use the translated observation scheme in your own study."
+msgstr ""
+"Derefter kan du bruge det oversatte observationsskema i dit eget studie."
+
+#: templates/cookies.php:5
+msgid "We don't track you!"
+msgstr "Vi sporer dig ikke!"
+
+#: templates/cookies.php:6
+msgid "We use cookies to remember your choices."
+msgstr "Vi bruger cookies til at huske dine valg."
+
+#: templates/cookies.php:7
+msgid ""
+"Cookies are small files which the browser saves on your device to make it "
+"possible to remember the settings from one page view to the next."
+msgstr ""
+"Cookies er små filer som browseren gemmer på din enhed for at gøre det "
+"muligt at huske dine valg fra besøg til besøg."
+
+#: templates/cookies.php:7
+msgid ""
+"We only use cookies to remember the choices you made. We don't share "
+"anything with anyone else."
+msgstr ""
+"Vi bruger kun cookies til at huske valg du har gjort. Vi deler ikke noget "
+"som helst med nogen som helst andre."
+
+#: templates/cookies.php:7
+msgid ""
+"If you have questions about this or anything else, please write an email to"
+msgstr ""
+"Hvis du har spørgsmål om dette eller andet, så skriv venligst en email til"
+
+#: templates/frontpage.php:5
+msgid ""
+"Observe allows researchers and practitioners to systematically observe "
+"teaching and learning practices."
+msgstr ""
+"Observe gør det muligt for forskere og praktikere at observere "
+"undervisningspraksisser på systematisk vis."
+
+#: templates/frontpage.php:7
+msgid ""
+"<a href=\"?backend=1\" class=\"smallmenulink\">Sign up</a> and start your "
+"own observe.education study using one of the predefined observation schemes "
+"- or develop one of your own."
+msgstr ""
+"<a href=\"?backend=1\" class=\"smallmenulink\">Tilmeld dig</a> og start dit "
+"eget observe.education-studie med en af de eksisterende observationsskemaer "
+"- eller udarbejd dit eget observationsskema."
+
+#: templates/frontpage.php:8
+msgid "Or start by trying out one of the observation schemes below."
+msgstr "Eller afprøv systemet med et af observationsskemaerne nedenfor."
+
+#: templates/frontpage.php:38
+msgid "Try it!"
+msgstr "Prøv det!"
+
+#: templates/observe.php:14
+msgid "New Sequence"
+msgstr "Ny sekvens"
+
+#: templates/observe.php:16
+msgid "Save and finish"
+msgstr "Gem og afslut"
+
+#: templates/observe.php:18
+msgid "Download and finish"
+msgstr "Download og afslut"
+
+#: templates/observe.php:24
+msgid "Screenshot"
+msgstr "Skærmbillede"
+
+#: templates/myOrganization.php:18
+msgid "Stylesheet"
+msgstr "Stylesheet"
+
+#: templates/myOrganization.php:21
+msgid "Front Page"
+msgstr "Forside"
+
+#: templates/myOrganization.php:24
+msgid "Create/Edit Pages"
+msgstr "Opret/rediger sider"
+
+#: templates/myOrganization.php:27 templates/mySystem.php:19
+#: templates/organizations.php:23 templates/organizations.php:30
+msgid "Users"
+msgstr "Brugere"
+
+#: templates/translate_observationscheme.php:18
+#: templates/translate_observationscheme.php:101
+msgid "Save Translation"
+msgstr "Gem oversættelse"
+
+#: templates/translate_observationscheme.php:24
+msgid "Translate observation scheme"
+msgstr "Oversæt observationsskema"
+
+#: templates/translate_observationscheme.php:27
+msgid "Target Language"
+msgstr "Målsprog"
+
+#: templates/translate_observationscheme.php:65
+msgid "Observation scheme"
+msgstr "Observationsskema"
+
+#: templates/translate_observationscheme.php:72
+msgid "Row"
+msgstr "Række"
+
+#: templates/translate_observationscheme.php:76
+msgid "Column"
+msgstr "Kolonne"
+
+#: templates/translate_observationscheme.php:80
+msgid "Category"
+msgstr "Kategori"
+
+#: templates/translate_observationscheme.php:84
+msgid "Value"
+msgstr "Værdi"
+
+#: templates/newpass.php:5
+msgid "The link has expired. We can send you a new one."
+msgstr "Linket er udløbet. Vi kan sende dig et nyt."
+
+#: templates/newpass.php:11
+msgid "Create a new password!"
+msgstr "Opret nyt kodeord!"
+
+#: templates/newpass.php:16
+msgid "New Password"
+msgstr "Nyt kodeord"
+
+#: templates/newpass.php:20
+msgid "Update"
+msgstr "Opdater"
+
+#: templates/edit_study.php:35
+msgid "Edit study"
+msgstr "Rediger studie"
+
+#: templates/edit_study.php:48 templates/studies.php:26
+#: templates/observerspage.php:27 templates/observationschemes.php:35
+msgid "Description"
+msgstr "Beskrivelse"
+
+#: templates/edit_study.php:56
+msgid "Change Observation Scheme"
+msgstr "Ændr observationsskema"
+
+#: templates/edit_study.php:56 templates/edit_study.php:195
+msgid "Select Observation Scheme"
+msgstr "Vælg observationsskema"
+
+#: templates/edit_study.php:61
+msgid "Active round"
+msgstr "Aktiv runde"
+
+#: templates/edit_study.php:63
+msgid "New round"
+msgstr "Ny runde"
+
+#: templates/edit_study.php:68
+msgid "Observers"
+msgstr "Observatører"
+
+#: templates/edit_study.php:72
+msgid "No observers appointed yet."
+msgstr "Ingen observatører udpeget endnu."
+
+#: templates/edit_study.php:75
+msgid "Add Observers"
+msgstr "Tilføj observatører"
+
+#: templates/edit_study.php:76
+msgid ""
+"Write one username or e-mail address on each line. If there is no user with "
+"that e-mail address, an invitation to join Observe.education will be sent."
+msgstr ""
+"Skriv et brugernavn eller e-mailadresse på hver linje. Hvis der ikke "
+"eksisterer en bruger med den e-mailadresse allerede, udsendes en invitation "
+"til at oprette en bruger på Observe.education til den pågældende e-"
+"mailadresse."
+
+#: templates/edit_study.php:78
+msgid "Add observers"
+msgstr "Tilføj observatører"
+
+#: templates/edit_study.php:85
+msgid "Subjects"
+msgstr "Fag/temaer"
+
+#: templates/edit_study.php:94
+msgid "No subjects defined yet."
+msgstr "Ingen fag/temaer defineret endnu."
+
+#: templates/edit_study.php:95
+msgid "Edit subjects by clicking on them."
+msgstr "Rediger fag/temaer ved at klikke på et af dem."
+
+#: templates/edit_study.php:98
+msgid "Add Subjects"
+msgstr "Tilføj fag/temaer"
+
+#: templates/edit_study.php:99
+msgid "Write one subject on each line."
+msgstr "Skriv et fag/tema på hver linje."
+
+#: templates/edit_study.php:101
+msgid "Add subjects"
+msgstr "Tilføj fag/temaer"
+
+#: templates/edit_study.php:107
+msgid "Institutions"
+msgstr "Institutioner"
+
+#: templates/edit_study.php:117
+msgid "No institutions created yet."
+msgstr "Ingen institutioner oprettet endnu."
+
+#: templates/edit_study.php:118
+msgid "Click on the institutions to edit and add groups and participants."
+msgstr ""
+"Klik på institutionerne for at redigere og tilføje grupper og deltagere."
+
+#: templates/edit_study.php:121
+msgid "Add Institutions"
+msgstr "TIlføj institutioner"
+
+#: templates/edit_study.php:122
+msgid ""
+"Write one institution on each line. Each institution will be given a unique "
+"ID. You can provide one yourself before each institution name and separate "
+"with a semicolon (;)."
+msgstr ""
+"Skriv en institution på hver linje. Hver institution tildeles et unikt ID. "
+"Du kan angive et ID selv før hver institutionsnavn og adskille dem med et "
+"semikolon (;)."
+
+#: templates/edit_study.php:124
+msgid "Add institutions"
+msgstr "Tilføj institutioner"
+
+#: templates/edit_study.php:129
+msgid "Done"
+msgstr "Afslut"
+
+#: templates/edit_study.php:137
+msgid "Edit institution, groups and participants"
+msgstr "Rediger institutioner, grupper og deltagere"
+
+#: templates/edit_study.php:146
+msgid "Id"
+msgstr "Id"
+
+#: templates/edit_study.php:159
+msgid "No groups created yet."
+msgstr "Ingen grupper oprettet endnu."
+
+#: templates/edit_study.php:159 templates/edit_study.php:172
+msgid "Edit ID and name by clicking on them."
+msgstr "Rediger ID og navn ved at klikke på dem."
+
+#: templates/edit_study.php:162
+msgid "Add Groups"
+msgstr "TIlføj grupper"
+
+#: templates/edit_study.php:163
+msgid ""
+"Write one group on each line. Each group will be given a unique ID. You can "
+"provide one yourself before each group name and separate with a semicolon "
+"(;)."
+msgstr ""
+"Skriv en gruppe på hver linje. Hver gruppe gives et unikt ID. Du kan angive "
+"et ID selv før hver gruppe og adskille gruppenavn og ID med et semikolon (;)."
+
+#: templates/edit_study.php:165
+msgid "Add groups"
+msgstr "Tilføj grupper"
+
+#: templates/edit_study.php:172
+msgid "No participants created yet."
+msgstr "Ingen deltagere oprettet endnu."
+
+#: templates/edit_study.php:175
+msgid "Add Participants"
+msgstr "TIlføj deltagere"
+
+#: templates/edit_study.php:176
+msgid ""
+"Write one participant on each line. Each participant will be given a unique "
+"ID. You can provide one yourself before each participant name and separate "
+"with a semicolon (;)."
+msgstr ""
+"Skriv en deltager på hver linje. Hver deltager gives et unikt ID. Du kan "
+"angive et ID selv før hver deltager og adskille deltagernavn og ID med et "
+"semikolon (;)."
+
+#: templates/edit_study.php:178
+msgid "Add participants"
+msgstr "Tilføj deltagere"
+
+#: templates/mySystem.php:16 templates/organizations.php:16
+msgid "Organizations"
+msgstr "Organisationer"
+
+#: templates/mySystem.php:28 templates/adminmenu.php:17
+msgid "My Observe"
+msgstr "Mit Observe"
+
+#: templates/studies.php:10
+msgid "Under construction"
+msgstr "Under udarbejdelse"
+
+#: templates/studies.php:10
+msgid "Active"
+msgstr "Aktiv"
+
+#: templates/studies.php:10
+msgid "Inactive"
+msgstr "Inaktiv"
+
+#: templates/studies.php:10
+msgid "Finished"
+msgstr "Afsluttet"
+
+#: templates/studies.php:15
+msgid "New Study"
+msgstr "Nyt studie"
+
+#: templates/studies.php:21 templates/adminmenu.php:9
+msgid "Studies"
+msgstr "Studier"
+
+#: templates/studies.php:27
+msgid "Status"
+msgstr "Status"
+
+#: templates/studies.php:28 templates/observerspage.php:30
+#: templates/observationschemes.php:42
+msgid "Edit"
+msgstr "Rediger"
+
+#: templates/studies.php:29
+msgid "# Observations"
+msgstr "Antal observationer"
+
+#: templates/studies.php:30
+msgid "View"
+msgstr "Se"
+
+#: templates/studies.php:31
+msgid "Export"
+msgstr "Eksporter"
+
+#: templates/studies.php:32 templates/observerspage.php:31
+#: templates/observationschemes.php:43
+msgid "Delete"
+msgstr "Slet"
+
+#: templates/observerspage.php:16 templates/observationschemes.php:29
+msgid "New Observation Scheme"
+msgstr "Nyt observationsskema"
+
+#: templates/observerspage.php:22 templates/adminmenu.php:8
+#: templates/observationschemes.php:28
+msgid "Observation Schemes"
+msgstr "Observationsskema"
+
+#: templates/observerspage.php:28 templates/observationschemes.php:36
+msgid "Used in"
+msgstr "Brugt i"
+
+#: templates/observerspage.php:29 templates/observationschemes.php:41
+msgid "Public"
+msgstr "Offentligt"
+
+#: templates/organizations.php:22
+msgid "Url"
+msgstr "URL"
+
+#: templates/organizations.php:37 templates/organizations.php:49
+msgid "Create Organization"
+msgstr "Opret organisation"
+
+#: templates/organizations.php:46
+msgid "URL (shortname)"
+msgstr "URL (kort navn)"
+
+#: templates/adminmenu.php:12
+msgid "My Organization"
+msgstr "Min organisation"
+
+#: templates/adminmenu.php:22
+msgid "See how things are done ..."
+msgstr "Se hvordan tingene gøres ..."
+
+#: templates/adminmenu.php:23
+msgid "Download the manual ..."
+msgstr "Hent manualen ..."
+
+#: templates/acceptinvite.php:8
+msgid "Error when fetching invitation"
+msgstr "Fejl ved indlæsning af invitationen"
+
+#: templates/acceptinvite.php:9
+msgid ""
+"We cannot find the invitation in our system. The reson is probably one of "
+"the following."
+msgstr ""
+"Vi kan ikke finde invitationen i vores system. Årsagen er sandsynligvis en "
+"af følgende."
+
+#: templates/acceptinvite.php:11
+msgid ""
+"Maybe the registration has been renewed. Then you will have received a new "
+"invitaion e-mail. Click on the link in that e-mail."
+msgstr ""
+"Måske er invitationen blevet fornyet. Så vil du have modtaget en ny "
+"invitation i din e-mail. Klik på linket i den e-mail."
+
+#: templates/acceptinvite.php:12
+msgid ""
+"Or you have missed some of the registration code, when you copied the URL in "
+"the e-mail. Make sure to copy all of it."
+msgstr ""
+"Eller du har glemt noget af registreringskoden, da du kopierede URL-en i e-"
+"mailen. Prøv at kopiere igen."
+
+#: templates/acceptinvite.php:13
+msgid ""
+"Or the invitaion has been withdrawn. Please ask the study manager to invite "
+"you again."
+msgstr ""
+"Eller invitationen er blevet tilbagekaldt. Bed venligst "
+"studieadministratoren om at invitere dig igen."
+
+#: templates/acceptinvite.php:19
+msgid "Welcome to observe.education!"
+msgstr "Velkommen til observe.education!"
+
+#: templates/acceptinvite.php:20
+msgid "Create a user"
+msgstr "Opret bruger"
+
+#: templates/acceptinvite.php:27 templates/acceptinvite.php:28
+msgid "Your Name"
+msgstr "Dit navn"
+
+#: templates/acceptinvite.php:33
+msgid "Your username can be your e-mail address or a name of your own choice."
+msgstr ""
+"Dit brugernavn kan være din e-mailadresse eller et navn du selv vælger."
+
+#: templates/observationschemes.php:37
+msgid "Language"
+msgstr "Sprog"
+
+#: templates/observationschemes.php:38
+msgid "Scheme"
+msgstr "Skema"
+
+#: templates/observationschemes.php:39
+msgid "Try it"
+msgstr "Prøv det"
+
+#: templates/observationschemes.php:45
+msgid "Clone"
+msgstr "Klon"
+
+#: templates/observationschemes.php:64
+msgid "Create new translation"
+msgstr "Opret en ny oversættelse"
+
+#: templates/orgsettings.php:13
+msgid "Standard Settings"
+msgstr "Standardindstillinger"
+
+#: templates/myUser.php:14
+msgid "User Data"
+msgstr "Brugerdata"
+
+#: templates/myUser.php:26
+msgid ""
+"You are welcome to change your e-mail. Please remember to use the new "
+"address for login in the future."
+msgstr ""
+"Du er velkommen til at ændre din e-mail. Husk venligst at bruge den nye "
+"adresse når du skal logge ind fremover."
+
+#: templates/myUser.php:30
+msgid "Unchanged"
+msgstr "Uændret"
+
+#: templates/myUser.php:34
+msgid "Organization:"
+msgstr "Organisation:"
+
+#: templates/myUser.php:37
+msgid "Stay"
+msgstr "Bliv"
+
+#: templates/myUser.php:41
+msgid "Remove me!"
+msgstr "Meld mig ud!"
+
+#: templates/myUser.php:43
+msgid ""
+"If you remove yourself from the organization, you need someone to re-invite "
+"you, before you can come back."
+msgstr ""
+"Hvis du melder dig ud af organisationen, så skal du geninviteres for at "
+"kunne komme tilbage."
+
+#: templates/editCSS.php:15
+msgid "Use changes"
+msgstr "Anvend ændringer"
+
+#: templates/editCSS.php:34
+msgid "Navigation Bar"
+msgstr "Navigationsbar"
+
+#: templates/editCSS.php:37
+msgid "Toggles at small screen sizes"
+msgstr "Ændrer sig ved små skærmstørrelser"
+
+#: templates/editCSS.php:40
+msgid "Click!"
+msgstr "Klik!"
+
+#: templates/editCSS.php:44
+msgid "Tournament Name"
+msgstr "Turneringsnavn"
+
+#: templates/editCSS.php:51
+msgid "Header"
+msgstr "Hoved"
+
+#: templates/editCSS.php:55
+msgid "Normal text"
+msgstr "Normal tekst"
+
+#: templates/editCSS.php:61 templates/editCSS.php:64 templates/editCSS.php:74
+msgid "Table"
+msgstr "Tabel"
+
+#: templates/editCSS.php:61
+msgid "With"
+msgstr "Med"
+
+#: templates/editCSS.php:61
+msgid "Hover"
+msgstr "Mus over-funktion"
+
+#: templates/editCSS.php:61 templates/editCSS.php:64 templates/editCSS.php:74
+msgid "Cell"
+msgstr "Celle"
+
+#: templates/editCSS.php:64
+msgid "Striped"
+msgstr "Stribet"
+
+#: templates/editCSS.php:64
+msgid "Small"
+msgstr "Lille"
+
+#: templates/editCSS.php:69
+msgid "League Table Header"
+msgstr "Stillingsoverskrift"
+
+#: templates/editCSS.php:73
+msgid "League Table"
+msgstr "Stillinger"
+
+#: templates/editCSS.php:74
+msgid "In"
+msgstr "I"
+
+#: templates/editCSS.php:74
+msgid "Card"
+msgstr "Kort"
+
+#: templates/editCSS.php:86
+msgid "First Round. Group A"
+msgstr "Første runde. Gruppe A"
+
+#: templates/editCSS.php:90 templates/editCSS.php:91 templates/editCSS.php:92
+msgid "No."
+msgstr "Nej."
+
+#: templates/editCSS.php:90 templates/editCSS.php:91 templates/editCSS.php:92
+msgid "First Round"
+msgstr "Første runde"
+
+#: templates/editCSS.php:90 templates/editCSS.php:91 templates/editCSS.php:92
+msgid "Team"
+msgstr "Hold"
+
+#: header.php:48
+msgid "Frontpage"
+msgstr "Forside"
+
+#: header.php:51
+msgid "Features"
+msgstr "Funktioner"
+
+#: header.php:77
+msgid "My User"
+msgstr "Min bruger"
+
+#: index.php:34
+msgid "Error: No organization with that name"
+msgstr "Fejl: Der er ikke nogen organisation med det navn"
+
+#: frontend/newinviteduser.php:11
+msgid ""
+"You have already registered a user with this e-mail. Please just log in."
+msgstr "Du har allerede registreret en bruger med denne e-mail. Bare log ind."
+
+#: frontend/newinviteduser.php:11
+msgid "The username is not available. Please select a new one."
+msgstr "Brugernavnet er ikke til rådighed. Vælg venligst et nyt."
+
+#: frontend/login.php:6
+msgid "Not a valid e-mail address"
+msgstr "Dette er ikke en korrekt emailadresse"
+
+#: frontend/login.php:14
+msgid "E-mail already registered"
+msgstr "E-mailadressen er allerede registreret"
+
+#: frontend/login.php:21
+msgid "Welcome to Observe!"
+msgstr "Velkommen til Observe!"
+
+#: frontend/login.php:49
+msgid "Welcome back to Observe!"
+msgstr "Velkommen tilbage til Observe!"
+
+#: frontend/login.php:51
+msgid "E-mail or password was wrong"
+msgstr "E-mailadresse eller kodeord var forkert"
+
+#: frontend/forgotpassword.php:11
+msgid "We couldn't find a  user with that e-mail address."
+msgstr "Vi kunne ikke finde en bruger med den e-mailadresse."
+
+#: frontend/forgotpassword.php:38
+msgid "Observe Support"
+msgstr "Observe-support"
+
+#: frontend/forgotpassword.php:43
+msgid "Create a new password"
+msgstr "Opret et nyt kodeord"
+
+#: frontend/forgotpassword.php:44
+#, php-format
+msgid ""
+"Hello %1$s,<br>Someone asked for a new password for Observe. If it was not "
+"you, please disregard this e-mail.<p>Please click on this link to create a "
+"new password:</p><p><a href=\"%2$s\">%2$s</a></p>"
+msgstr ""
+"Hej %1$s,<br>Nogen har anmodet om et nyt kodeord til Observe. Hvis det ikke "
+"var dig, så se bare bort fra denne e-mail.<p>Klik venligst på dette link for "
+"at oprette et nyt kodeord:</p><p><a href=\"%2$s\">%2$s</a></p><p>Vi ses på "
+"Observe.education!</p>"
+
+#: footer.php:19 footer.php:30
+msgid "Cookies"
+msgstr "Cookies"
+
+#: footer.php:20 footer.php:31
+msgid "Contact"
+msgstr "Kontakt"
+
+#: footer.php:25
+msgid "Log out"
+msgstr "Log ud"
+
+#: footer.php:40
+msgid "Tournament Managed by basesystem"
+msgstr "Observationsstudie administreret med Observe.education"
+
+#: footer.php:70
+msgid "Login"
+msgstr "Login"
+
+#~ msgid "Yes"
+#~ msgstr "Ja"
+
+#~ msgid "No"
+#~ msgstr "Nej"
+
+#~ msgid "Custom Officials"
+#~ msgstr "Udpegede officials"
+
+#~ msgid "Round results"
+#~ msgstr "Runderesultater"
+
+#~ msgid "Game results"
+#~ msgstr "Kampresultater"
+
+#~ msgid "Most matchpoints"
+#~ msgstr "Flest point"
+
+#~ msgid "Most won matches"
+#~ msgstr "Flest vundne kampe"
+
+#~ msgid "Most match points away"
+#~ msgstr "Flest point ude"
+
+#~ msgid "Best score (goals/games/sets) away"
+#~ msgstr "Bedste score (mål/sæt) ude"
+
+#~ msgid "Most points away"
+#~ msgstr "Flest point ude"
+
+#~ msgid "Most match points in mutual matches"
+#~ msgstr "Flest point i indbyrdes kampe"
+
+#~ msgid "Best score in mutual matches (goals/games/sets)"
+#~ msgstr "Bedste score i indbyrdes kampe (mål/sæt)"
+
+#~ msgid "Best score in mutual matches (points)"
+#~ msgstr "Bedste boldscore i indbyrdes kampe"
+
+#~ msgid "Best score difference (goals/games/sets)"
+#~ msgstr "Bedste mål/sæt-difference"
+
+#~ msgid "Best score difference (points)"
+#~ msgstr "Bedste boldscoredifference"
+
+#~ msgid "Best score (most goals/games/sets scored)"
+#~ msgstr "Bedste score (flest mål/sæt)"
+
+#~ msgid "Best score (most points scored)"
+#~ msgstr "Bedste boldscore"
+
+#~ msgid "Games"
+#~ msgstr "Sæt"
+
+#~ msgid "Points"
+#~ msgstr "Point"
+
+#~ msgid "Sets/goals"
+#~ msgstr "Sæt/mål"
+
+#~ msgid "Set points"
+#~ msgstr "Bolde"
+
+#~ msgid "Set points Won"
+#~ msgstr "Bolde vundet"
+
+#~ msgid "Set points Lost"
+#~ msgstr "Bolde tabt"
+
+#~ msgid "Won"
+#~ msgstr "Vundet"
+
+#~ msgid "Draw"
+#~ msgstr "Uafgjort"
+
+#~ msgid "Lost"
+#~ msgstr "Tabt"
+
+#~ msgid "Won Home"
+#~ msgstr "Vundet hjemme"
+
+#~ msgid "Draw Home"
+#~ msgstr "Uafgjort hjemme"
+
+#~ msgid "Lost Home"
+#~ msgstr "Tabt hjemme"
+
+#~ msgid "Won Away"
+#~ msgstr "Vundet ude"
+
+#~ msgid "Draw Away"
+#~ msgstr "Uafgjort ude"
+
+#~ msgid "Lost Away"
+#~ msgstr "Tabt ude"
+
+#~ msgid "Points Home"
+#~ msgstr "Point hjemme"
+
+#~ msgid "Points Away"
+#~ msgstr "Point ude"
+
+#~ msgid "Sets/Goals Won Home"
+#~ msgstr "Sæt/mål hjemme"
+
+#~ msgid "Sets/Goals Lost Home"
+#~ msgstr "Sæt/mål tabt hjemme"
+
+#~ msgid "Sets/Goals Won Away"
+#~ msgstr "Sæt/mål vundet ude"
+
+#~ msgid "Sets/Goals Lost Away"
+#~ msgstr "Sæt/mål tabt ude"
+
+#~ msgid "Sets points Won Home"
+#~ msgstr "Bolde vundet hjemme"
+
+#~ msgid "Sets points Lost Home"
+#~ msgstr "Bolde tabt hjemme"
+
+#~ msgid "Sets points Won Away"
+#~ msgstr "Bolde vundet ude"
+
+#~ msgid "Sets points Lost Away"
+#~ msgstr "Bolde tabt ude"
+
+#~ msgid "Games are reset"
+#~ msgstr "Kampene er nulstillet"
+
+#~ msgid "(You can paste a list of team names (CTRL+V))"
+#~ msgstr "(Du kan indsætte (paste) en liste af holdnavne (CTRL+V))"
+
+#~ msgid "Build from scratch"
+#~ msgstr "Byg fra bunden"
+
+#~ msgid "Build your own tournament system"
+#~ msgstr "Lav din egen turnering"
+
+#~ msgid "Change system"
+#~ msgstr "Ændr system"
+
+#~ msgid "Save matches?"
+#~ msgstr "Gem kampresultater?"
+
+#~ msgid ""
+#~ "Some matches have been played. Do you want to keep the results when the "
+#~ "new system has been chosen?"
+#~ msgstr ""
+#~ "Nogle kampe er allerede afgjort. Vil du have genindsat resultaterne når "
+#~ "det nye system er valgt?"
+
+#~ msgid "Your own system"
+#~ msgstr "Dit eget system"
+
+#~ msgid "Standard system"
+#~ msgstr "Standardsystem"
+
+#~ msgid "%d matches"
+#~ msgstr "%d kampe"
+
+#~ msgid "See"
+#~ msgstr "Se"
+
+#~ msgid ""
+#~ "Not able to find an official for the game at field %1$s, slot number "
+#~ "%2$d<br>"
+#~ msgstr ""
+#~ "Kunne ikke finde en official til kampen på bane %1$s, slot nummer %2$d<br>"
+
+#~ msgid "The suggested Unique Link is already in use. Try another one."
+#~ msgstr "Det ønskede link er allerede i brug. Prøv et andet."
+
+#~ msgid "Start"
+#~ msgstr "Starttid"
+
+#~ msgid "Game Length"
+#~ msgstr "Kampvarighed"
+
+#~ msgid "Different lengths"
+#~ msgstr "Forskellige varigheder"
+
+#~ msgid "Tournament Day"
+#~ msgstr "Spilledag"
+
+#~ msgid "The file was not one of the allowed types (%s)"
+#~ msgstr "Filen var ikke en af de tilladte typer (%s)"
+
+#~ msgid "The upload went wrong"
+#~ msgstr "Der skete en fejl under uploadningen"
+
+#~ msgid "Field"
+#~ msgstr "Bane"
+
+#~ msgid "Field %d"
+#~ msgstr "Bane %d"
+
+#~ msgid ""
+#~ "Not enough slots available. This is an unrecoverable program error. "
+#~ "Please write an e-mail to jeppe@bundsgaard.net."
+#~ msgstr ""
+#~ "Der er ikke nok pladser til rådighed til kampene. Dette er en "
+#~ "programfejl. Kontakt venligst jeppe@bundsgaard.net og beskriv hvad du "
+#~ "gjorde før fejlen opstod."
+
+#~ msgid ""
+#~ "%1$s is starting earlier than the main field, %2$s. This will not work. "
+#~ "Please put %1$s on top."
+#~ msgstr ""
+#~ "%1$s starter tidligere end hovedbanen, %2$s. Det fungerer ikke. Put "
+#~ "venligst %1$s øverst."
+
+#~ msgid ""
+#~ "One or more fields in %s will be changed to comply with the main fields' "
+#~ "time schedule"
+#~ msgstr ""
+#~ "En eller flere baner i %s vil blive ændret for at være i overensstemmelse "
+#~ "med hovedbanens tidsskema"
+
+#~ msgid ""
+#~ "To avoid overlapping games, %1$d games will be put in the pool in %2$s"
+#~ msgstr ""
+#~ "For at undgå overlappende kampe bliver %1$d kampe lagt i poolen i %2$s"
+
+#~ msgid "Please confirm the changes by clicking Save once again"
+#~ msgstr "Godkend venligst ændringerne ved at klikke på Gem én gang mere"
+
+#~ msgid "Create new system"
+#~ msgstr "Opret nyt system"
+
+#~ msgid "Save as new system"
+#~ msgstr "Gem som nyt system"
+
+#~ msgid "Save system"
+#~ msgstr "Gem system"
+
+#~ msgid "Add system"
+#~ msgstr "Tilføj system"
+
+#~ msgid "Passwords"
+#~ msgstr "Kodeord"
+
+#~ msgid "Points and Sets"
+#~ msgstr "Point og Sæt"
+
+#~ msgid "Tiebreaker rules for League tables"
+#~ msgstr "Regler for afgørelse ved pointlighed"
+
+#~ msgid "Layout of League tables"
+#~ msgstr "Stillingstabelopsætning"
+
+#~ msgid "Scoresheets"
+#~ msgstr "Kampskema"
+
+#~ msgid "Seeding Points"
+#~ msgstr "Seedningspoint"
+
+#~ msgid "Times"
+#~ msgstr "Tider"
+
+#~ msgid "When inputting scores"
+#~ msgstr "Når point indtastes"
+
+#~ msgid "Master password"
+#~ msgstr "Hovedkodeord"
+
+#~ msgid "Master password and password for each team"
+#~ msgstr "Hovedkodeord og kodeord for hvert hold"
+
+#~ msgid "Live Score Password"
+#~ msgstr "Live scorekodeord"
+
+#~ msgid "Un-changed"
+#~ msgstr "Uændret"
+
+#~ msgid "Points when won:"
+#~ msgstr "Point ved sejr:"
+
+#~ msgid "Points when draw:"
+#~ msgstr "Point ved uafgjort:"
+
+#~ msgid "Custom points function:"
+#~ msgstr "Specialfunktion for pointfordeling:"
+
+#~ msgid "Use sets"
+#~ msgstr "Brug sæt"
+
+#~ msgid "Max number of sets:"
+#~ msgstr "Maksimalt antal sæt:"
+
+#~ msgid "Winning Score:"
+#~ msgstr "Point for at vinde:"
+
+#~ msgid "Winning Score, last set:"
+#~ msgstr "Point for at vinde sidste sæt:"
+
+#~ msgid "Needs to win by at least:"
+#~ msgstr "Mindste overskydende point:"
+
+#~ msgid "Order of tiebreaker criteria"
+#~ msgstr "Rækkefølge for kriterier for afgørelse ved pointlighed"
+
+#~ msgid "Un-used tiebreaker criteria"
+#~ msgstr "Ubrugte kriterier for afgørelse ved pointlighed"
+
+#~ msgid "Columns included in short form league table"
+#~ msgstr "Kolonner inkluderet i den korte form af stillingen"
+
+#~ msgid "Available column names"
+#~ msgstr "Tilgængelige kolonner"
+
+#~ msgid "Columns included in long form league table"
+#~ msgstr "Kolonner inkluderet i den lange form af stillingen"
+
+#~ msgid ""
+#~ "Scoresheet templates can be in Microsoft (.docx, .xlsx), and OpenDocument "
+#~ "(.odt and .ods) format."
+#~ msgstr ""
+#~ "Kampskemaskabeloner kan være i Microsoft  (.docx, .xlsx)-, og "
+#~ "OpenDocument (.odt and .ods)-format."
+
+#~ msgid ""
+#~ "Insert the following variables (e.g. [Team1], including []) in your "
+#~ "scoresheet template to get information about the match into the "
+#~ "scoresheet:"
+#~ msgstr ""
+#~ "Indsæt følgende variable (fx [Team1], inklusive []) i kampskemaskabelonen "
+#~ "for at få information om kampen ind i skabelonen:"
+
+#~ msgid "[Team1]"
+#~ msgstr "[Team1]"
+
+#~ msgid "Team 1"
+#~ msgstr "Holdnavn 1"
+
+#~ msgid "[Team2]"
+#~ msgstr "[Team2]"
+
+#~ msgid "Team 2"
+#~ msgstr "Holdnavn 2"
+
+#~ msgid "[Team1Player1]"
+#~ msgstr "[Team1Player1]"
+
+#~ msgid "Player 1 at Team 1"
+#~ msgstr "Spiller 1 på Hold 1"
+
+#~ msgid "[Team1Player2]"
+#~ msgstr "[Team1Player2]"
+
+#~ msgid "Player 2 at Team 1"
+#~ msgstr "Spiller 2 på Hold 2"
+
+#~ msgid "[Team2Player1]"
+#~ msgstr "[Team2Player1]"
+
+#~ msgid "Player 1 at Team 2"
+#~ msgstr "Spiller 1 på Hold 2"
+
+#~ msgid "[Team2Player2]"
+#~ msgstr "[Team2Player2]"
+
+#~ msgid "Player 2 at Team 2"
+#~ msgstr "Spiller 2 på Hold 2"
+
+#~ msgid "[Official]"
+#~ msgstr "[Official]"
+
+#~ msgid "Official"
+#~ msgstr "Officials"
+
+#~ msgid "[Field]"
+#~ msgstr "[Field]"
+
+#~ msgid "Field Name"
+#~ msgstr "Banenavn"
+
+#~ msgid "[Time]"
+#~ msgstr "[Time]"
+
+#~ msgid "Time"
+#~ msgstr "Tid"
+
+#~ msgid "[EventName]"
+#~ msgstr "[EventName]"
+
+#~ msgid "Name of Event"
+#~ msgstr "Stævnets navn"
+
+#~ msgid "[TournamentName]"
+#~ msgstr "[TournamentName]"
+
+#~ msgid "Name of Tournament"
+#~ msgstr "Turneringens navn"
+
+#~ msgid "[Day]"
+#~ msgstr "[Day]"
+
+#~ msgid "Name of Tournament Day"
+#~ msgstr "Spilledagens navn"
+
+#~ msgid "[Date]"
+#~ msgstr "[Date]"
+
+#~ msgid "Tournament Day Date"
+#~ msgstr "Kampdagsdato"
+
+#~ msgid "[ShortName]"
+#~ msgstr "[ShortName]"
+
+#~ msgid "Tournament Short Name"
+#~ msgstr "Turneringens forkortelse"
+
+#~ msgid "[GroupName]"
+#~ msgstr "[GroupName]"
+
+#~ msgid "[MatchNo]"
+#~ msgstr "[MatchNo]"
+
+#~ msgid "Match Number"
+#~ msgstr "Kampnummer"
+
+#~ msgid "Select an existing scoresheet"
+#~ msgstr "Vælg en eksisterende kampskemaskabelon"
+
+#~ msgid "Delete Scoresheet"
+#~ msgstr "Slet kampskemaskabelon"
+
+#~ msgid "Upload scoresheet"
+#~ msgstr "Upload kampskema"
+
+#~ msgid "Choose Scoresheet File"
+#~ msgstr "Vælg kampskema-fil"
+
+#~ msgid "Uploading ..."
+#~ msgstr "Uploader ..."
+
+#~ msgid "Scoresheet file uploaded:"
+#~ msgstr "Kampskema-filen er uploadet:"
+
+#~ msgid "Input or paste seeding points given to the teams"
+#~ msgstr "Skriv eller paste de seedningspoints som holdene skal have, ind"
+
+#~ msgid "Match duration"
+#~ msgstr "Kamplængde"
+
+#~ msgid "Break duration"
+#~ msgstr "Pauselængde"
+
+#~ msgid "Only use self-designed tournament systems"
+#~ msgstr "Brug kun selv-designede turneringssystemer"
+
+#~ msgid "Sports"
+#~ msgstr "Sportsgrene"
+
+#~ msgid "Image"
+#~ msgstr "Billede"
+
+#~ msgid "Create Sport"
+#~ msgstr "Opret sport"
+
+#~ msgid "Month"
+#~ msgstr "Måned"
+
+#~ msgid "Day"
+#~ msgstr "Dag"
+
+#~ msgid "Events"
+#~ msgstr "Stævner"
+
+#~ msgid "Tournaments"
+#~ msgstr "Rækker"
+
+#~ msgid "Referers"
+#~ msgstr "Henvisere"
+
+#~ msgid "Previous results"
+#~ msgstr "Foregående resultater"
+
+#~ msgid "Next results"
+#~ msgstr "Næste resultater"
+
+#~ msgid "Unique visitors"
+#~ msgstr "Unikke besøgende"
+
+#~ msgid "Match Distribution"
+#~ msgstr "Kampfordeling"
+
+#~ msgid "Automatic"
+#~ msgstr "Automatisk"
+
+#~ msgid "Manual"
+#~ msgstr "Manuel"
+
+#~ msgid "Pool"
+#~ msgstr "Pool"
+
+#~ msgid "Add Tournament Day"
+#~ msgstr "Tilføj kampdag"
+
+#~ msgid "Set officials"
+#~ msgstr "Fordel officials"
+
+#~ msgid "Edit officials"
+#~ msgstr "Rediger officials"
+
+#~ msgid "Reset officials"
+#~ msgstr "Nulstil officials"
+
+#~ msgid ""
+#~ "Save as template in order to use this composition of the tournament in a "
+#~ "later tournament (including fields, field settings, distribution of "
+#~ "matches and officials)"
+#~ msgstr ""
+#~ "Gem som skabelon så du kan bruge denne turneringskomposition i en senere "
+#~ "turnering (inklusive baner, baneindstillinger, fordeling af kampe og "
+#~ "official)"
+
+#~ msgid "Copy composition from template"
+#~ msgstr "Kopier turneringskomposition"
+
+#~ msgid "Field Settings"
+#~ msgstr "Baneindstillinger"
+
+#~ msgid "Number of slots"
+#~ msgstr "Antal tidsrum"
+
+#~ msgid "-1 for no limit"
+#~ msgstr "-1 for ingen grænser"
+
+#~ msgid "Custom Time Slots"
+#~ msgstr "Tilpasset tidsskema"
+
+#~ msgid "Save changes"
+#~ msgstr "Gem ændringer"
+
+#~ msgid "Tournament Day Name"
+#~ msgstr "Kampdagsnavn"
+
+#~ msgid "Edit Officials"
+#~ msgstr "Rediger officials"
+
+#~ msgid "When distributing officials automatically"
+#~ msgstr "Når officials fordeles automatisk"
+
+#~ msgid "Use teams as officials"
+#~ msgstr "Brug holdene som officials"
+
+#~ msgid "Use Custom Officials"
+#~ msgstr "Brug oprettede officials"
+
+#~ msgid "(You can paste a list of officials (CTRL+V))"
+#~ msgstr "(Du kan indsætte (paste) en liste af officials (CTRL+V))"
+
+#~ msgid "Add official"
+#~ msgstr "Tilføj en official"
+
+#~ msgid "Save Composition Template"
+#~ msgstr "Gem kompositionsskabelon"
+
+#~ msgid "Replace Existing Template"
+#~ msgstr "Erstat eksisterende skabelon"
+
+#~ msgid "Template Title"
+#~ msgstr "Skabelontitel"
+
+#~ msgid "Save template"
+#~ msgstr "Gem skabelon"
+
+#~ msgid "let the games begin"
+#~ msgstr "lad spillet begynde"
+
+#~ msgid "Event Info Page"
+#~ msgstr "Stævneinfoside"
+
+#~ msgid "Organization Info Page"
+#~ msgstr "Organisationsinfoside"
+
+#~ msgid "Site Header"
+#~ msgstr "Sitehoved"
+
+#~ msgid "Tournament Info Page"
+#~ msgstr "Turneringsinfoside"
+
+#~ msgid "Medium"
+#~ msgstr "Medium"
+
+#~ msgid "Large"
+#~ msgstr "Stor"
+
+#~ msgid "Extra Large"
+#~ msgstr "Ekstra stor"
+
+#~ msgid "Header number"
+#~ msgstr "Hovednummer"
+
+#~ msgid "Default visiblity"
+#~ msgstr "Synlighed i udgangspunktet"
+
+#~ msgid "Show All"
+#~ msgstr "Vis alle"
+
+#~ msgid "Show None"
+#~ msgstr "Vis ingen"
+
+#~ msgid "Show from"
+#~ msgstr "Vis fra"
+
+#~ msgid "Hide from"
+#~ msgstr "Skjul fra"
+
+#~ msgid "Add header"
+#~ msgstr "Tilføj hoved"
+
+#~ msgid "Log in or Sign up!"
+#~ msgstr "Log ind eller opret en bruger!"
+
+#~ msgid ""
+#~ "The user will have instant access to your organization, and lose "
+#~ "connection to already created events and tournaments. They will be "
+#~ "reestablished when the user is removed from the organization."
+#~ msgstr ""
+#~ "Brugeren får øjeblikkelig adgang til din organisation og mister derved "
+#~ "forbindelsen til allere oprettede stævner og turneringer De genetableres "
+#~ "når brugeren fjernes fra organisationen."
+
+#~ msgid "Follow our %s {name} at "
+#~ msgstr "Følg vores %s {name} på "
+
+#~ msgid "Send e-mail"
+#~ msgstr "Send e-mail"
+
+#~ msgid "Copy link"
+#~ msgstr "Kopier link"
+
+#~ msgid "Unique link for your tournament"
+#~ msgstr "Unikt link til din turnering"
+
+#~ msgid "Test"
+#~ msgstr "Test"
+
+#~ msgid "Info"
+#~ msgstr "Info"
+
+#~ msgid "Overview"
+#~ msgstr "Kampoversigt"
+
+#~ msgid "Matches"
+#~ msgstr "Kampe"
+
+#~ msgid "Group Members"
+#~ msgstr "Puljedeltagere"
+
+#~ msgid "Standings"
+#~ msgstr "Stillinger"
+
+#~ msgid "Live Score"
+#~ msgstr "Live score"
+
+#~ msgid "Share"
+#~ msgstr "Del"
+
+#~ msgid "Print all scoresheets"
+#~ msgstr "Udskriv alle kampskemaer"
+
+#~ msgid "Match no."
+#~ msgstr "Kamp nr."
+
+#~ msgid "Home"
+#~ msgstr "Hjemme"
+
+#~ msgid "Away"
+#~ msgstr "Ude"
+
+#~ msgid "Result"
+#~ msgstr "Resultat"
+
+#~ msgid "Set Score"
+#~ msgstr "Sætscore"
+
+#~ msgid "Select a tournament to see the standings"
+#~ msgstr "Vælg en turnering for at se stillingerne"
+
+#~ msgid "Tournament"
+#~ msgstr "Turnering"
+
+#~ msgid "Score"
+#~ msgstr "Stilling"
+
+#~ msgid "Ongoing Game"
+#~ msgstr "Igangværende sæt"
+
+#~ msgid "No active games at this moment."
+#~ msgstr "Ingen igangværende kampe."
+
+#~ msgid "Start Date"
+#~ msgstr "Startdato"
+
+#~ msgid "Loading Tournaments ..."
+#~ msgstr "Henter turneringer ..."
+
+#~ msgid "Share this Observe event ..."
+#~ msgstr "Del dette Observe-stævne ..."
+
+#~ msgid "event"
+#~ msgstr "stævne"
+
+#~ msgid "Edit scores"
+#~ msgstr "Rediger resultater"
+
+#~ msgid "Enter password"
+#~ msgstr "Skriv kodeord"
+
+#~ msgid "Edit!"
+#~ msgstr "Rediger!"
+
+#~ msgid "Rember me"
+#~ msgstr "Husk mig"
+
+#~ msgid "Enter score"
+#~ msgstr "Skriv resultat"
+
+#~ msgid "Total score"
+#~ msgstr "Resultat"
+
+#~ msgid "Reset scores"
+#~ msgstr "Nulstil resultater"
+
+#~ msgid "Send scores"
+#~ msgstr "Send resultat"
+
+#~ msgid "Notify me!"
+#~ msgstr "Hold mig opdateret!"
+
+#~ msgid "Minutes before the match"
+#~ msgstr "Minutter før kampen"
+
+#~ msgid "About the result"
+#~ msgstr "Om resultatet"
+
+#~ msgid "Send"
+#~ msgstr "Send"
+
+#~ msgid "Print"
+#~ msgstr "Udskriv"
+
+#~ msgid "Print Scoresheets"
+#~ msgstr "Udskriv kampskemaer"
+
+#~ msgid "Print Game List"
+#~ msgstr "Udskriv kampliste"
+
+#~ msgid "Print groups of matches"
+#~ msgstr "Udskriv grupper"
+
+#~ msgid "Finished matches are not included."
+#~ msgstr "Afsluttede kampe inkluderes ikke i udskrivningen."
+
+#~ msgid "Matches where all teams and officials are known, and not printed yet"
+#~ msgstr "Kampe hvor alle hold og officials er kendte og endnu ikke udskrevet"
+
+#~ msgid "Print Unprinted"
+#~ msgstr "Udskriv ikke udskrevne"
+
+#~ msgid ""
+#~ "Matches where all teams and officials are known, including already printed"
+#~ msgstr ""
+#~ "Kampe hvor alle hold og officials er kendte, inklusive allerede udskrevne"
+
+#~ msgid "Print Ready"
+#~ msgstr "Udskriv klar til kamp"
+
+#~ msgid "All matches, including matches with unknown participants"
+#~ msgstr "Alle kampe, inklusive kampe med ukendte deltagere"
+
+#~ msgid "Print All"
+#~ msgstr "Udskriv alle"
+
+#~ msgid "Or select the matches you want to print"
+#~ msgstr "Eller vælg de kampe du vil udskrive"
+
+#~ msgid "Games ready to be played"
+#~ msgstr "Kampe klar til at blive spillet"
+
+#~ msgid "Games already played"
+#~ msgstr "Afgjorte kampe"
+
+#~ msgid "Print Selected"
+#~ msgstr "Udskriv valgte"
+
+#~ msgid "Create New Event"
+#~ msgstr "Opret et stævne"
+
+#~ msgid "My Events"
+#~ msgstr "Mine stævner"
+
+#~ msgid "Show Upcoming Events"
+#~ msgstr "Vis kommende stævner"
+
+#~ msgid "Show Past Events"
+#~ msgstr "Vis afsluttede stævner"
+
+#~ msgid ""
+#~ "Events are always accessible using a shared link. Setting this makes it "
+#~ "visible to the public"
+#~ msgstr ""
+#~ "Stævner kan altid ses hvis man har det delte link. Klik på øjet for at "
+#~ "gøre stævnet synlig for alle"
+
+#~ msgid "Visible"
+#~ msgstr "Synlig"
+
+#~ msgid "Info Page"
+#~ msgstr "Infoside"
+
+#~ msgid "Event Settings"
+#~ msgstr "Stævneindstillinger"
+
+#~ msgid "Unique Link"
+#~ msgstr "Unikt link"
+
+#~ msgid "Number of tournaments"
+#~ msgstr "Antal turneringer"
+
+#~ msgid "Number of teams"
+#~ msgstr "Antal hold"
+
+#~ msgid "Number of matches"
+#~ msgstr "Antal kampe"
+
+#~ msgid "Fields"
+#~ msgstr "Baner"
+
+#~ msgid "Match program"
+#~ msgstr "Kampprogram"
+
+#~ msgid "Create an event by clicking above"
+#~ msgstr "Opret et stævne ved at klikke ovenfor"
+
+#~ msgid "Event Name"
+#~ msgstr "Stævnenavn"
+
+#~ msgid "Event Dates"
+#~ msgstr "Stævnedatoer"
+
+#~ msgid "Event Description"
+#~ msgstr "Stævnebekrivelse"
+
+#~ msgid "Event Sports"
+#~ msgstr "Stævnets sportsgren"
+
+#~ msgid "Event Unique Link"
+#~ msgstr "Unikt link til stævne"
+
+#~ msgid "Unique link"
+#~ msgstr "Unikt link"
+
+#~ msgid "Add tournaments to your event from the tournament list"
+#~ msgstr "Tilføj turneringer til stævnet i oversigten over dine turneringer"
+
+#~ msgid "Edit Event Fields"
+#~ msgstr "Rediger stævnebaner"
+
+#~ msgid "Edit Field Names"
+#~ msgstr "Rediger banenavne"
+
+#~ msgid "Stop Editing Field Names"
+#~ msgstr "Afslut redigering af banenavne"
+
+#~ msgid "Confirm save changes"
+#~ msgstr "Accepter gem ændringer"
+
+#~ msgid "Delete Event?"
+#~ msgstr "Slet stævne?"
+
+#~ msgid ""
+#~ "Do you really want to delete this event? It will NOT delete the "
+#~ "tournaments. It can NOT be undone!"
+#~ msgstr ""
+#~ "Vil du virkelig slette dette stævne? Det vil IKKE slette turneringerne "
+#~ "der hører til stævnet. Det kan IKKE fortrydes!"
+
+#~ msgid "Share Event"
+#~ msgstr "Del stævne"
+
+#~ msgid "Wait while the scoresheet(s) are being prepared"
+#~ msgstr "Vent mens kampskemaet/-erne bliver klargjort"
+
+#~ msgid "Close page"
+#~ msgstr "Luk siden"
+
+#~ msgid "Search for tournament or event ..."
+#~ msgstr "Søg efter turnering eller stævne"
+
+#~ msgid "Enter some letters"
+#~ msgstr "Skriv nogle bogstaver"
+
+#~ msgid "Upcoming Events"
+#~ msgstr "Kommende stævner"
+
+#~ msgid "Loading Events ..."
+#~ msgstr "Henter stævner ..."
+
+#~ msgid "Past Events"
+#~ msgstr "Afsluttede stævner"
+
+#~ msgid "Upcoming Tournaments"
+#~ msgstr "Kommende turneringer"
+
+#~ msgid "Part of Event"
+#~ msgstr "Del af stævne"
+
+#~ msgid "Past Tournaments"
+#~ msgstr "Afsluttede turneringer"
+
+#~ msgid "Move ALL matches to pool"
+#~ msgstr "Flyt ALLE kampe til poolen"
+
+#~ msgid "Auto-distribute the remaining matches"
+#~ msgstr "Fordel de resterende kampe automatisk"
+
+#~ msgid "Select Official"
+#~ msgstr "Vælg official"
+
+#~ msgid "Reset"
+#~ msgstr "Nulstil"
+
+#~ msgid "Reset saved games"
+#~ msgstr "Nulstil gemte indstillinger"
+
+#~ msgid ""
+#~ "You can paste (CTRL+V) a list of tournament names, short names and/or "
+#~ "field names."
+#~ msgstr ""
+#~ "Du kan paste (CTRL+V) en liste med turneringsnavne, korte navne og/eller "
+#~ "banenavne."
+
+#~ msgid "Tournament name"
+#~ msgstr "Turneringsnavn"
+
+#~ msgid "Enter tournament name"
+#~ msgstr "Skriv turneringens navn"
+
+#~ msgid "Tournament short name"
+#~ msgstr "Turneringens forkortelse"
+
+#~ msgid "Short name"
+#~ msgstr "Forkortelse"
+
+#~ msgid "Field Names (divided by semicolon (;))"
+#~ msgstr "Banenavne (adskilt med semikolon (;))"
+
+#~ msgid "Optional."
+#~ msgstr "Valgfri."
+
+#~ msgid "Add a clone of this tournamet"
+#~ msgstr "Opret en klon af denne turnering"
+
+#~ msgid "Cannot add team names before number of teams is set"
+#~ msgstr "Kan ikke skrive holdnavne før antallet af hold er fastsat"
+
+#~ msgid "No tournament system options before number of teams is set"
+#~ msgstr "Kan ikke sætte systemindstillinger før antallet af hold er fastsat"
+
+#~ msgid "When tournament system is chosen, the games will be ready here"
+#~ msgstr "Når turneringssystemet er valgt, vil kampene blive vist her"
+
+#~ msgid ""
+#~ "Tournaments in a group can be accessed and shared from the tournament "
+#~ "list."
+#~ msgstr ""
+#~ "Turneringer i en gruppe kan tilgås og deles fra turneringsoversigten."
+
+#~ msgid "View tournament"
+#~ msgstr "Se turnering"
+
+#~ msgid "View tournament in new window"
+#~ msgstr "Se turneringen i et nyt vindue"
+
+#~ msgid "tournament"
+#~ msgstr "turnering"
+
+#~ msgid ""
+#~ "When you have chosen a sport, you can see and change the settings ... "
+#~ msgstr "Når du har valgt en sport, kan du se og ændre indstillingerne ... "
+
+#~ msgid "Number of Teams"
+#~ msgstr "Antal hold"
+
+#~ msgid "Number of teams participating in the tournament"
+#~ msgstr "Antal hold der deltager i turneringen"
+
+#~ msgid "Team Names"
+#~ msgstr "Holdnavne"
+
+#~ msgid "Tournament System"
+#~ msgstr "Turneringssystem"
+
+#~ msgid "Match Program"
+#~ msgstr "Kampprogram"
+
+#~ msgid "View and Share"
+#~ msgstr "Se og del"
+
+#~ msgid "Edit Most Recent Tournament"
+#~ msgstr "Rediger senest oprettede turnering"
+
+#~ msgid "My Tournaments"
+#~ msgstr "Mine turneringer"
+
+#~ msgid "Create a New Tournament"
+#~ msgstr "Opret en ny turnering"
+
+#~ msgid "Tournaments in event"
+#~ msgstr "Turneringer i stævne"
+
+#~ msgid "Show all tournaments"
+#~ msgstr "Vis alle turneringer"
+
+#~ msgid ""
+#~ "Tournaments are always accessible using a shared link. Setting this makes "
+#~ "it visible to the public"
+#~ msgstr ""
+#~ "Turneringer kan altid ses hvis man har det delte link. Klik på øjet for "
+#~ "at gøre turneringen synlig for alle"
+
+#~ msgid "Last change"
+#~ msgstr "Senest ændret"
+
+#~ msgid "Delete Tournament?"
+#~ msgstr "Slet turnering?"
+
+#~ msgid "Do you really want to delete this tournament? It can NOT be undone!"
+#~ msgstr "Vil du virkelig slette denne turnering? Det kan IKKE fortrydes!"
+
+#~ msgid "Share Tournament"
+#~ msgstr "Del turnering"
+
+#~ msgid "Game Over. Next"
+#~ msgstr "Afslut sættet og gå til næste"
+
+#~ msgid "Match Over. Save results"
+#~ msgstr "Afslut kamp og gem resultatet"
+
+#~ msgid "Create your own tournament"
+#~ msgstr "Lav din egen turnering"
+
+#~ msgid ""
+#~ "Observe is perfect for administration of all kinds of sports events, "
+#~ "competetions and tournaments."
+#~ msgstr ""
+#~ "Laturna er perfekt til administration af alle slags sportsbegivenheder, "
+#~ "stævner, turneringer osv."
+
+#~ msgid ""
+#~ "Observe is and will always be free to use for single tournaments. Click "
+#~ "<a href=\"?backend=1\">Admin</a>, create an account and begin!"
+#~ msgstr ""
+#~ "Laturna vil altid være gratis at bruge til enkeltstående turneringer. "
+#~ "Klik <a href=\"?backend=1\">Admin</a>, opret en konto og begynd!"
+
+#~ msgid "Professional use"
+#~ msgstr "Professionel brug"
+
+#~ msgid ""
+#~ "If you want to organize an event consisting of several tournaments, it is "
+#~ "free while Observe is in Beta mode. If you want to organize several "
+#~ "events, and give Observe your own feel and look, please contact us to get "
+#~ "a quote."
+#~ msgstr ""
+#~ "Hvis du vil organisere et stævne som består af flere turneringer, er det "
+#~ "gratis så længe Observe er i betaversion. Hvis du vil organisere flere "
+#~ "stævner, og give Observe dit eget udtryk, samt have adgang til support, "
+#~ "så kontakt os for en pris."
+
+#~ msgid ""
+#~ "Questions, ideas, comments, bugs ... ? Contact <a href=\"mailto:"
+#~ "jeppe@bundsgaard.net\">Jeppe Bundsgaard</a>."
+#~ msgstr ""
+#~ "Spørgsmål, ideer, kommentarer, fejl ... ? Kontakt <a href=\"mailto:"
+#~ "jeppe@bundsgaard.net\">Jeppe Bundsgaard</a>."
+
+#~ msgid "Easy to get started"
+#~ msgstr "Let at komme i gang"
+
+#~ msgid "Click <a href=\"?backend=1\">Admin</a>, create an account and begin!"
+#~ msgstr "Klik <a href=\"?backend=1\">Admin</a>, opret en konto og begynd!"
+
+#~ msgid "Create a tournament in 5 easy steps"
+#~ msgstr "Opret en ny turnering i fem lette trin"
+
+#~ msgid ""
+#~ "1) Select the <b>sport</b>, 2) give the tournament a <b>name</b>, 3) set "
+#~ "<b>number of teams</b>, 4) write or paste the <b>names of the teams</b>, "
+#~ "5) select the <b>tournament system</b>. <b>And you are good to go!</b>"
+#~ msgstr ""
+#~ "1) Vælg <b>sport</b>, 2) giv torneringen et <b>navn</b>, 3) angiv "
+#~ "<b>antal hold</b>, 4) skriv eller indklip <b>navnene på de deltagende "
+#~ "hold</b>, 5) vælg <b>turneringssystem</b>. <b>Og du er klar til kamp!</b>"
+
+#~ msgid "Create an event"
+#~ msgstr "Opret et stævne"
+
+#~ msgid ""
+#~ "If your are administering more tournaments in an event, create an event."
+#~ msgstr "Hvis du står for flere turneringer i et stævne, opret et stævne."
+
+#~ msgid ""
+#~ "If your are administering a row of events, apply for an organization."
+#~ msgstr "Hvis du står for flere stævner, så ansøg om at få en organisation."
+
+#~ msgid "Free to use!"
+#~ msgstr "Gratis at bruge!"
+
+#~ msgid "Observe is and will always be free to use for single tournaments."
+#~ msgstr ""
+#~ "Laturna vil altid være gratis at bruge til enkeltstående turneringer."
+
+#~ msgid "Standard Settings for %s"
+#~ msgstr "Standardindstillinger for %s"
+
+#~ msgid "Admin"
+#~ msgstr "Admin"
+
+#~ msgid "New result in %s!"
+#~ msgstr "Nyt resultat i %s!"
+
+#~ msgid "Group done in %s!"
+#~ msgstr "Puljen er slut om %s!"
+
+#~ msgid "Round done in %s!"
+#~ msgstr "Runden er afsluttet om %s!"
+
+#~ msgid "Game about to begin %s!"
+#~ msgstr "Kampen starter %s!"
+
+#~ msgid "Error: No organization, event or tournament with that name"
+#~ msgstr ""
+#~ "Fejl: Der er ikke nogen turnering, stævne eller organisation med det navn"
+
+#~ msgid "Your session has timed out. Please log in again"
+#~ msgstr "Din session er udløbet. Log ind igen"
+
+#~ msgid "The data is not correct..."
+#~ msgstr "Data er ikke korrekt..."
+
+#~ msgid "Sunday"
+#~ msgstr "Søndag"
+
+#~ msgid "Monday"
+#~ msgstr "Mandag"
+
+#~ msgid "Tuesday"
+#~ msgstr "Tirsdag"
+
+#~ msgid "Wednesday"
+#~ msgstr "Onsdag"
+
+#~ msgid "Thursday"
+#~ msgstr "Torsdag"
+
+#~ msgid "Friday"
+#~ msgstr "Fredag"
+
+#~ msgid "Saturday"
+#~ msgstr "Lørdag"
+
+#~ msgid "Group %s is done."
+#~ msgstr "Puljen %s er afsluttet."
+
+#~ msgid "Round %s is done."
+#~ msgstr "Runden %s er afsluttet."
+
+#~ msgid "Match between %1$s and %2$s is beginning at %3$s"
+#~ msgstr "Kampen mellem %1$s og %2$s starter kl. %3$s"
+
+#~ msgid "Match about to begin in %s!"
+#~ msgstr "Kampen starter om %s!"
+
+#~ msgid "Sorry, something went wrong while getting the data ... "
+#~ msgstr "Beklager, der gik noget galt ved indhentning af data ... "
+
+#~ msgid "Winner %s"
+#~ msgstr "Vinder %s"
+
+#~ msgid "Loser %s"
+#~ msgstr "Taber %s"
+
+#~ msgid "No %d, %s"
+#~ msgstr "Nummer %d, %s"
+
+#~ msgid "No tournament or event found"
+#~ msgstr "Ingen turnering eller stævne fundet"
+
+#~ msgid "Welcome to the Observe experience!"
+#~ msgstr "Velkommen til Observe!"
+
+#~ msgid "Scoresheet.pdf"
+#~ msgstr "Kampskema.pdf"
+
+#~ msgid "You haven't set a password in the event settings menu"
+#~ msgstr "Du har ikke oprettet et kodeord i stævneindstillingerne"
+
+#~ msgid "You haven't set a password in the settings menu"
+#~ msgstr "Du har ikke oprettet et kodeord i Indstillinger"
+
+#~ msgid "You don't have the permisions to set the results of this match"
+#~ msgstr "Du har ikke rettighederne til at skrive resultaterne for denne kamp"
+
+#~ msgid "The link has expired"
+#~ msgstr "Linket er udløbet"
+
+#~ msgid "Please ask for a new link at the login page."
+#~ msgstr "Bed venligst om et nyt link på login-siden."
+
+#~ msgid "New Field"
+#~ msgstr "Ny bane"
+
+#~ msgid "Find your tournament ..."
+#~ msgstr "Find din turnering ..."
+
+#~ msgid "Sets/Goals Draw Home"
+#~ msgstr "Sæt/mål uafgjort hjemme"
+
+#~ msgid "Sets/Goals Draw Away"
+#~ msgstr "Sæt/mål uafgjort ude"
+
+#~ msgid "Sets points Draw Home"
+#~ msgstr "Bolde uafgjort hjemme"
+
+#~ msgid "Sets points Draw Away"
+#~ msgstr "Bolde uafgjort ude"
+
+#~ msgid "Custom officials"
+#~ msgstr "Opret officials"
+
+#~ msgid "Number "
+#~ msgstr "Nummer"
+
+#~ msgid "(Changes only take effect on new fields, not existing)"
+#~ msgstr "(Ændringer har kun effekt for nye baner, ikke eksisterende)"
+
+#~ msgid "Standard game duration:"
+#~ msgstr "Standardvarighed for kampe:"
+
+#~ msgid "Standard break duration:"
+#~ msgstr "Standardvarighed for pauser:"
+
+#~ msgid "Go to Tournaments"
+#~ msgstr "Vis turneringer"
+
+#~ msgid "Password for score input"
+#~ msgstr "Kodeord for scoreinput"
+
+#~ msgid "Export all data"
+#~ msgstr "Eksporter al data"
+
+#~ msgid "Go to Events"
+#~ msgstr "Vis stævner"
+
+#~ msgid "Set Playing"
+#~ msgstr "Igangværende sæt"
+
+#~ msgid "No  %s %s"
+#~ msgstr "Nr. %s %s"

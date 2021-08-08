@@ -1,0 +1,179 @@
+.obsscheme {
+	border-style:solid;
+	border-width:1px;
+	border-color:#ccc;
+}
+.sequence {
+	border-style:solid;
+	border-width:1px;
+	border-color:#ccc;
+	margin-bottom:15px;
+	background-color:#fcfcfc;
+}
+.sequenceHeader {
+	
+}
+.obsrow {
+/* 	border-style:dashed; */
+	border-width:1px;
+	border-color:#ccc;
+}
+.obscol {
+	
+	width:300px;
+	max-width:300px;
+/* 	border-style:dotted; */
+	border-width:1px;
+	border-color:#ccc;
+}
+.obscategory {
+	margin:10px;
+}
+.obsvalue {
+	
+}
+.newicon {
+	color:#a7dfa5;
+	align-content:center;
+	text-align:center;
+}
+.deleteicon {
+	color:#ff969b;
+}
+.settingsIcon {
+	color:#a2b4d3;
+}
+.rowHeader {
+	writing-mode:sideways-lr;/*vertical-rl;*/
+	text-align: center;
+/* 	background-color:#effefe; */
+	font-style:italic;
+}
+.colHeader {
+	text-align: center;
+/* 	background-color:#feeffe; */
+	font-style:italic;
+}
+.catHeader {
+	font-weight: bold;
+}
+.categoryfooter span {
+	padding-left:10px;
+}
+.dropRow {
+	background-color:#eee;
+}
+.dropCol {
+	background-color:#eee;
+}
+.dropCategory {
+	background-color:#eee;
+}
+.dropValue {
+	background-color:#eee;
+}
+.dropAccept {
+	height:100px;
+	width:100px;
+}
+.dropHover {
+	background-color:#ccfecc;
+}
+.dependantOn {
+	background-color:rgb(100,0,0,.3);
+}
+.dependsOn {
+	background-color:rgb(0,100,0,.3);
+}
+.dependant .makeDependant {
+	color:red;
+}
+.textareavalue {
+	padding:15px;
+}
+.valueText {
+}
+.valueSelected {
+	background-color:rgb(0,100,0,.3);
+	color:white;
+}
+.needsvalue {
+	border-color:#cc3300;
+	border-style:solid;
+	border-width:3px;
+}
+.timeSize {
+	width:10em;
+}
+.obsthumb {
+	width:50px;
+	max-height:50px;
+}
+.flagthumb {
+	height:16px;
+}
+.imgbackground {
+}
+.obsimg {
+	padding:20px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	transition: 2.3s;
+	background-color:white;
+}
+.modal-img  {
+	max-width: 100%; /* Full width */
+}
+.modal-img-body {
+	background-color:transparent;
+	border-style:none;
+}
+.modal-observations {
+	width: 90%;
+	max-width:2000px;
+}
+.obscard {
+/* 	padding:20px; */
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	transition: 2.3s;
+}
+.obscard .card-img-top {
+	max-height:200px;
+}
+.btn-observe {
+ 	color:#000000;
+    background-color: transparent;
+    border-color: #DD6641;
+}
+.outline-observe {
+ 	color:#000000;
+    background-color: transparent;
+    border-color: #DD6641;
+}
+.toggle.btn-outline-danger .toggle-handle {
+	background-color:transparent;
+	border-color:#DD6641;
+}
+.addobjs {
+	max-height:25px;
+}
+.activeaddobjs {
+	max-height:200px;
+}
+.poolbtnp {
+	margin-top:15px;
+	vertical-align:bottom;¨
+}
+.instobj, .observer {
+/*	display:block;
+	border-style:solid;
+	border-width:1px;
+	border-color:#aaa;*/
+}
+.pool {
+	border-style:dotted;
+	border-width:1px;
+	border-color:#aaa;
+}
+.invited {
+	border-color:#cc3300;
+}
