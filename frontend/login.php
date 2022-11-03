@@ -26,7 +26,7 @@ else {
 		$password=md5($_POST["inputPassword"]);
 		$log.=$_POST["newpass"];
 		if($_POST["newpass"]) {
-			$file=$relative."../newpass/".$_POST["newpass"];
+			$file=$relative."newpass/".$_POST["newpass"];
 			$log.=$file;
 			if(file_exists($file)) {
 				$email=file_get_contents($file);

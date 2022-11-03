@@ -4,7 +4,7 @@
 	include_once($systemdirs["backend"]."checklogin.php");
 	
 	if(!$_SESSION["user_id"]) exit;
-
+$study_id=$_POST["study_id"];
 include($systemdirs["backend"]."get_context.php");
 
 

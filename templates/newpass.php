@@ -1,6 +1,6 @@
 <!--     < ?php if(!$_SESSION["user_id"] and !$loggedin) {? > -->
 <?php 
-	$email=file_get_contents($relative."../newpass/".$newpass);
+	$email=file_get_contents($relative."newpass/".$newpass);
 	if(!$email) { 
 		echo ('<script>var warning="'._('The link has expired. We can send you a new one.').'";</script>');
 		echo get_template("login")["template"];

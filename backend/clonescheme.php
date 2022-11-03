@@ -10,6 +10,9 @@ if($_POST["id"]) {
 	$res["log"].=$q;
  	$res["id"]=$mysqli->insert_id;
 	copy("../img/obsschemes/".$_POST["id"].".png","../img/obsschemes/".$res["id"].".png");
+	
+	$q='insert into translations (`obsscheme_id`,`language`,`name`,`description`,`reference`,`translation`,`translator`) select '.$res["id"].',`language`,`name`,`description`,`reference`,`translation`,`translator` from translations where obsscheme_id='.$_POST["id"];
+ 	$re=$mysqli->query($q);
 } 
 
 echo json_encode($res);

@@ -43,19 +43,22 @@ if(!empty($newobservers)) {
 	$secrets=explode("\n",file_get_contents($relative."settings/.htmail"));
 	// Instantiation and passing `true` enables exceptions
 	$mail = new PHPMailer(true);
+		$hostport=explode(":",$secrets[0]);
+		$host=$hostport[0];
+		$port=$hostport[1]?$hostport[1]:465; 
 
 	
 	//Server settings
 	$mail->SMTPDebug = 0;                                       // Enable verbose debug output
 	$mail->Debugoutput = function($str, $level) {global $warnings; $warnings[]="<br>message: $str";};
-	$mail->isSMTP();                                            // Set mailer to use SMTP
+	$mail->isSendmail();#isSMTP();                                            // Set mailer to use SMTP
 	$mail->CharSet = 'utf-8';
-	$mail->Host       = $secrets[0];							  // Specify main and backup SMTP servers
+	$mail->Host       = $host;							  // Specify main and backup SMTP servers
 	$mail->SMTPAuth   = true;                                   // Enable SMTP authentication
 	$mail->Username   = $secrets[1];                     // SMTP username
 	$mail->Password   = $secrets[2];                               // SMTP password
 	$mail->SMTPSecure = 'tls';                                  // Enable TLS encryption, `ssl` also accepted
-	$mail->Port       = 587;                                    // TCP port to connect to
+	$mail->Port       = $port;                                    // TCP port to connect to
 	$mail->AddReplyTo($r["email"],($r["userfullname"]?$r["userfullname"]:$r["email"]));
 	$mail->setFrom('admin@observe.education', _('Administrator at observe.education'));
 

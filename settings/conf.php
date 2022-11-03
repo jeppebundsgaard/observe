@@ -1,9 +1,11 @@
 <?php
 // Base URL
-$GLOBALS=array(
+$globals=array(
 "baseurl"=>"baseurl.dk"
 );
-
+foreach ($globals as $key => $value) {
+    $GLOBALS[$key] = $value;
+}
 //////////////////////////////
 // Leave these as they are ...
 //////////////////////////////

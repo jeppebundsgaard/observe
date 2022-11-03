@@ -53,7 +53,7 @@ if($_POST["id"]) {
 		<div class="col">
 			<label for="observation_scheme" class="col-form-label"><?= _('Observation Scheme');?></label>
 			<p><img src="img/flags/<?= $r["language"];?>.png" class="flagthumb" alt="<?= $r["language_name"];?>" title=""> <span class="strong" id="obsschemename"><?=$r["obsschemename"];?></span></p>
-			<p><button class="btn btn-observe" id="selectobsscheme"><?= ($r["obsschemename"]?_('Change Observation Scheme'):_('Select Observation Scheme'));?></button></p>
+			<p><button class="btn btn-observe notname" id="selectobsscheme"><?= ($r["obsschemename"]?_('Change Observation Scheme'):_('Select Observation Scheme'));?></button></p>
 		</div>
 	</div>
 	<div class="form-row">

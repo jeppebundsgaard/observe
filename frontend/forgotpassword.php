@@ -12,27 +12,32 @@ if ($result->num_rows<1) $warning=_('We couldn\'t find a  user with that e-mail 
 else {
 	$r=$result->fetch_assoc();
 	for ($s = '', $i = 0, $z = strlen($a = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789')-1; $i != 32; $x = rand(0,$z), $s .= $a{$x}, $i++); 
-	$link=$baseurl."/?newpass=".$s;
+	$baseurl="https://observe.education/";
+	$link=$baseurl."?newpass=".$s;
 // 	$log.=$link;
 	// Load Composer's autoloader
 	require $relative.'vendor/autoload.php';
 
-	$secrets=explode("\n",file_get_contents($relative."../settings/.htmail"));
+	$secrets=explode("\n",file_get_contents($relative."settings/.htmail"));
 
 	// Instantiation and passing `true` enables exceptions
 	$mail = new PHPMailer(true);
 
 	try {
 		//Server settings
+		$hostport=explode(":",$secrets[0]);
+		$host=$hostport[0];
+		$port=$hostport[1]?$hostport[1]:465; 
+		
 		$mail->SMTPDebug = 0;                                       // Enable verbose debug output
-		$mail->isSMTP();                                            // Set mailer to use SMTP
+		$mail->isSendmail();#isSMTP();                                            // Set mailer to use SMTP
 		$mail->CharSet = 'utf-8';
-		$mail->Host       = $secrets[0];							  // Specify main and backup SMTP servers
+		$mail->Host       = $host;							  // Specify main and backup SMTP servers
 		$mail->SMTPAuth   = true;                                   // Enable SMTP authentication
 		$mail->Username   = $secrets[1];                     // SMTP username
 		$mail->Password   = $secrets[2];                               // SMTP password
 		$mail->SMTPSecure = 'tls';                                  // Enable TLS encryption, `ssl` also accepted
-		$mail->Port       = 587;                                    // TCP port to connect to
+		$mail->Port       = $port;                                    // TCP port to connect to
 
 		//Recipients
 		$mail->setFrom('admin@observe.education', _('Observe Support'));
@@ -48,6 +53,7 @@ else {
 	} catch (Exception $e) {
 		$warning=_("Message could not be sent. Mailer Error: {$mail->ErrorInfo}");
 	}
- 	if(!$warning) file_put_contents($relative."../newpass/".$s,$_POST["email"]);
+ 	if(!$warning) file_put_contents($relative."newpass/".$s,$_POST["email"]);
 }
+// $log.=print_r($secrets,true);
 echo json_encode(array("warning"=>$warning,"log"=>$log));
