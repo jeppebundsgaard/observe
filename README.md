@@ -1,5 +1,7 @@
 # Observe teaching and learning practices
 
+Development has moved to https://codeberg.org/jeppebundsgaard/observe. Github is no longer safe in the hands of Microsoft.
+
 Observe allows researchers and practitioners to systematically observe teaching and learning practices.
 
 Go to [observe.education](https://observe.education) to use the system, or download your own version here. 
